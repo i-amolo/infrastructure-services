@@ -1,0 +1,1376 @@
+2025-07-11 20:56:31.01 Server      Microsoft SQL Server 2022 (RTM-CU19) (KB5054531) - 16.0.4195.2 (X64) 
+	Apr 18 2025 13:42:14 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>
+2025-07-11 20:56:31.02 Server      UTC adjustment: 0:00
+2025-07-11 20:56:31.02 Server      (c) Microsoft Corporation.
+2025-07-11 20:56:31.02 Server      All rights reserved.
+2025-07-11 20:56:31.02 Server      Server process ID is 460.
+2025-07-11 20:56:31.02 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2025-07-11 20:56:31.03 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2025-07-11 20:56:31.06 Server      SQL Server detected 1 sockets with 6 cores per socket and 12 logical processors per socket, 12 total logical processors; using 12 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2025-07-11 20:56:31.06 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2025-07-11 20:56:31.06 Server      Detected 1571 MB of RAM, 274 MB of available memory, 274 MB of available page file. This is an informational message; no user action is required.
+2025-07-11 20:56:31.07 Server      Using conventional memory in the memory manager.
+2025-07-11 20:56:31.07 Server      Detected pause instruction latency: 60 cycles.
+2025-07-11 20:56:31.07 Server      SQL Server detected the following NUMA node configuration (NUMA Node number 0, Processor Group number 0, CPU Mask 0x0000000000000fff).
+2025-07-11 20:56:31.07 Server      Page exclusion bitmap is enabled.
+2025-07-11 20:56:31.14 Server      Buffer pool extension is not supported on Linux platform.
+2025-07-11 20:56:31.14 Server      Buffer Pool: Allocating 524288 bytes for 35408 hashPages.
+2025-07-11 20:56:31.27 Server      Buffer pool extension is already disabled. No action is necessary.
+2025-07-11 20:56:31.75 Server      Installing Client TLS certificates to the store.
+2025-07-11 20:56:31.75 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2025-07-11 20:56:31.82 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2025-07-11 20:56:31.87 Server      Query Store settings initialized with enabled = 1, 
+2025-07-11 20:56:31.89 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2025-07-11 20:56:31.90 Server      Node configuration: node 0: CPU mask: 0x0000000000000fff:0 Active CPU mask: 0x0000000000000fff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2025-07-11 20:56:31.91 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2025-07-11 20:56:31.94 Server      In-Memory OLTP initialized on lowend machine.
+2025-07-11 20:56:32.09 Server      CLR version v4.0.30319 loaded.
+2025-07-11 20:56:32.30 Server      Common language runtime (CLR) functionality initialized.
+2025-07-11 20:56:32.90 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2025-07-11 20:56:32.91 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2025-07-11 20:56:32.94 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2025-07-11 20:56:32.96 Server      clwb is selected for pmem flush operation.
+2025-07-11 20:56:32.96 Server      Software Usage Metrics is disabled.
+2025-07-11 20:56:33.02 spid35s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:33.04 spid35s     Starting up database 'master'.
+2025-07-11 20:56:33.61 Server      External governance manager initialized
+2025-07-11 20:56:34.95 spid38s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:34.95 spid35s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:34.97 spid35s     Starting up database 'model_replicatedmaster'.
+2025-07-11 20:56:34.97 spid38s     Starting up database 'mssqlsystemresource'.
+2025-07-11 20:56:34.98 spid38s     The resource database build version is 16.00.4195. This is an informational message only. No user action is required.
+2025-07-11 20:56:35.04 spid38s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:35.04 spid38s     Starting up database 'model'.
+2025-07-11 20:56:35.50 spid46s     A self-generated certificate was successfully loaded for encryption.
+2025-07-11 20:56:35.51 spid46s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2025-07-11 20:56:35.52 spid46s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2025-07-11 20:56:35.53 Server      Server is listening on [ ::1 <ipv6> 1434] accept sockets 1.
+2025-07-11 20:56:35.53 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434] accept sockets 1.
+2025-07-11 20:56:35.53 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2025-07-11 20:56:35.54 spid46s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2025-07-11 20:56:35.55 spid46s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2025-07-11 20:56:35.55 spid46s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2025-07-11 20:56:36.59 spid35s     Converting database 'model_replicatedmaster' from version 927 to the current version 957.
+2025-07-11 20:56:36.59 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 927 to version 928.
+2025-07-11 20:56:36.60 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 928 to version 929.
+2025-07-11 20:56:36.82 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 929 to version 930.
+2025-07-11 20:56:36.84 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 930 to version 931.
+2025-07-11 20:56:36.85 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 931 to version 932.
+2025-07-11 20:56:36.86 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 932 to version 933.
+2025-07-11 20:56:36.87 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 933 to version 934.
+2025-07-11 20:56:36.87 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 934 to version 935.
+2025-07-11 20:56:36.88 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 935 to version 936.
+2025-07-11 20:56:36.89 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 936 to version 937.
+2025-07-11 20:56:36.90 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 937 to version 938.
+2025-07-11 20:56:36.91 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 938 to version 939.
+2025-07-11 20:56:36.92 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 939 to version 940.
+2025-07-11 20:56:36.93 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 940 to version 941.
+2025-07-11 20:56:36.94 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 941 to version 942.
+2025-07-11 20:56:36.95 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 942 to version 943.
+2025-07-11 20:56:37.19 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 943 to version 944.
+2025-07-11 20:56:37.21 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 944 to version 945.
+2025-07-11 20:56:37.24 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 945 to version 946.
+2025-07-11 20:56:37.24 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 946 to version 947.
+2025-07-11 20:56:37.26 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 947 to version 948.
+2025-07-11 20:56:37.27 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 948 to version 949.
+2025-07-11 20:56:37.30 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 949 to version 950.
+2025-07-11 20:56:37.30 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 950 to version 951.
+2025-07-11 20:56:37.34 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 951 to version 952.
+2025-07-11 20:56:37.34 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 952 to version 953.
+2025-07-11 20:56:37.43 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 953 to version 954.
+2025-07-11 20:56:37.44 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 954 to version 955.
+2025-07-11 20:56:37.45 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 955 to version 956.
+2025-07-11 20:56:37.50 spid35s     Database 'model_replicatedmaster' running the upgrade step from version 956 to version 957.
+2025-07-11 20:56:37.63 spid35s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:37.64 spid35s     Starting up database 'model_msdb'.
+2025-07-11 20:56:39.47 spid35s     Converting database 'model_msdb' from version 927 to the current version 957.
+2025-07-11 20:56:39.47 spid35s     Database 'model_msdb' running the upgrade step from version 927 to version 928.
+2025-07-11 20:56:39.49 spid35s     Database 'model_msdb' running the upgrade step from version 928 to version 929.
+2025-07-11 20:56:39.60 spid35s     Database 'model_msdb' running the upgrade step from version 929 to version 930.
+2025-07-11 20:56:39.63 spid35s     Database 'model_msdb' running the upgrade step from version 930 to version 931.
+2025-07-11 20:56:39.76 spid35s     Database 'model_msdb' running the upgrade step from version 931 to version 932.
+2025-07-11 20:56:39.76 spid35s     Database 'model_msdb' running the upgrade step from version 932 to version 933.
+2025-07-11 20:56:39.78 spid35s     Database 'model_msdb' running the upgrade step from version 933 to version 934.
+2025-07-11 20:56:39.79 spid35s     Database 'model_msdb' running the upgrade step from version 934 to version 935.
+2025-07-11 20:56:39.80 spid35s     Database 'model_msdb' running the upgrade step from version 935 to version 936.
+2025-07-11 20:56:39.80 spid35s     Database 'model_msdb' running the upgrade step from version 936 to version 937.
+2025-07-11 20:56:39.81 spid35s     Database 'model_msdb' running the upgrade step from version 937 to version 938.
+2025-07-11 20:56:39.82 spid35s     Database 'model_msdb' running the upgrade step from version 938 to version 939.
+2025-07-11 20:56:39.83 spid35s     Database 'model_msdb' running the upgrade step from version 939 to version 940.
+2025-07-11 20:56:39.84 spid35s     Database 'model_msdb' running the upgrade step from version 940 to version 941.
+2025-07-11 20:56:39.85 spid35s     Database 'model_msdb' running the upgrade step from version 941 to version 942.
+2025-07-11 20:56:39.86 spid35s     Database 'model_msdb' running the upgrade step from version 942 to version 943.
+2025-07-11 20:56:39.99 spid35s     Database 'model_msdb' running the upgrade step from version 943 to version 944.
+2025-07-11 20:56:40.00 spid35s     Database 'model_msdb' running the upgrade step from version 944 to version 945.
+2025-07-11 20:56:40.06 spid35s     Database 'model_msdb' running the upgrade step from version 945 to version 946.
+2025-07-11 20:56:40.07 spid35s     Database 'model_msdb' running the upgrade step from version 946 to version 947.
+2025-07-11 20:56:40.08 spid35s     Database 'model_msdb' running the upgrade step from version 947 to version 948.
+2025-07-11 20:56:40.08 spid35s     Database 'model_msdb' running the upgrade step from version 948 to version 949.
+2025-07-11 20:56:40.10 spid35s     Database 'model_msdb' running the upgrade step from version 949 to version 950.
+2025-07-11 20:56:40.11 spid35s     Database 'model_msdb' running the upgrade step from version 950 to version 951.
+2025-07-11 20:56:40.13 spid35s     Database 'model_msdb' running the upgrade step from version 951 to version 952.
+2025-07-11 20:56:40.14 spid35s     Database 'model_msdb' running the upgrade step from version 952 to version 953.
+2025-07-11 20:56:40.15 spid35s     Database 'model_msdb' running the upgrade step from version 953 to version 954.
+2025-07-11 20:56:40.16 spid35s     Database 'model_msdb' running the upgrade step from version 954 to version 955.
+2025-07-11 20:56:40.16 spid35s     Database 'model_msdb' running the upgrade step from version 955 to version 956.
+2025-07-11 20:56:40.26 spid35s     Database 'model_msdb' running the upgrade step from version 956 to version 957.
+2025-07-11 20:56:40.37 spid62s     Attribute synchronization initialized
+2025-07-11 20:56:40.38 spid62s     Attribute synchronization manager initialized
+2025-07-11 20:56:40.38 spid35s     Resource governor reconfiguration succeeded.
+2025-07-11 20:56:40.38 spid35s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2025-07-11 20:56:40.39 spid35s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2025-07-11 20:56:41.40 spid35s     SQL Trace ID 1 was started by login "sa".
+2025-07-11 20:56:41.42 spid35s     Server name is 'sqlserver'. This is an informational message only. No user action is required.
+2025-07-11 20:56:41.44 spid72s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2025-07-11 20:56:41.44 spid38s     Clearing tempdb database.
+2025-07-11 20:56:41.44 spid72s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2025-07-11 20:56:41.55 spid72s     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:41.55 spid74s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-07-11 20:56:41.56 spid74s     Starting up database 'msdb'.
+2025-07-11 20:56:41.56 spid72s     Starting up database 'smsinfo'.
+2025-07-11 20:56:41.56 spid72s     RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-07-11 20:56:41.56 spid72s     RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-07-11 20:56:42.98 spid36s     Using 'dbghelp.dll' version '4.0.5'
+2025-07-11 20:56:48.00 spid58s      Failed allocate pages: FAIL_PAGE_ALLOCATION 1
+2025-07-11 20:56:48.01 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-07-11 20:56:48.01 spid38s     Error: 701, Severity: 17, State: 123.
+2025-07-11 20:56:48.01 spid38s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-07-11 20:56:48.03 spid74s     Error: 701, Severity: 17, State: 71.
+2025-07-11 20:56:48.03 spid74s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-07-11 20:56:48.03 spid65s     Error: 701, Severity: 17, State: 123.
+2025-07-11 20:56:48.03 spid65s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-07-11 20:56:48.03 spid72s     Error: 701, Severity: 17, State: 71.
+2025-07-11 20:56:48.03 spid72s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-07-11 20:56:48.07 spid58s      MSR-2
+Process/System Counts                         Value
+---------------------------------------- ----------
+Available Physical Memory                  60628992 57.82 mb
+Available Virtual Memory                 70364449144833 64.00 tb
+Available Paging File                      60628992 57.82 mb
+Working Set                              4294967296 4.00 gb
+Percent of Committed Memory in WS               100 
+Page Faults                                       0 
+System physical memory high                       0 false
+System physical memory low                        0 false
+Process physical memory low                       1 true
+Process virtual memory low                        0 false
+2025-07-11 20:56:48.07 spid58s      MSR-2
+Memory Manager                                   KB
+---------------------------------------- ----------
+VM Reserved                                 2012264 1.92 gb
+VM Committed                                 142604 139.26 mb
+Locked Pages Allocated                            0 0.00 bytes
+Large Pages Allocated                             0 0.00 bytes
+Emergency Memory                               1024 1.00 mb
+Emergency Memory In Use                           8 8.00 kb
+Target Committed                             142560 139.22 mb
+Current Committed                            142608 139.27 mb
+Pages Allocated                              101488 99.11 mb
+Pages Reserved                                    0 0.00 bytes
+Pages Free                                     3016 2.95 mb
+Pages In Use                                 137328 134.11 mb
+Page Alloc Potential                          -1848 -1.80 mb
+NUMA Growth Phase                                 1 Discard away
+Last OOM Factor                                   1 AllocationPotential
+Last OS Error                                     0 
+2025-07-11 20:56:48.08 spid58s      MSR-2
+Memory node Id = 0                               KB
+---------------------------------------- ----------
+VM Reserved                                 2012136 1.92 gb
+VM Committed                                 142568 139.23 mb
+Locked Pages Allocated                            0 0.00 bytes
+Pages Allocated                              101432 99.05 mb
+Pages Free                                     3072 3.00 mb
+Target Committed                             142520 139.18 mb
+Current Committed                            142568 139.23 mb
+Foreign Committed                                 0 0.00 bytes
+Away Committed                                    0 0.00 bytes
+Taken Away Committed                              0 0.00 bytes
+2025-07-11 20:56:48.09 spid38s     Error: 1814, Severity: 10, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-07-11 20:56:48.09 spid35s     Error: 701, Severity: 17, State: 123.
+2025-07-11 20:56:48.09 spid35s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-07-11 20:56:48.09 spid58s      MSR-2
+Memory node Id = 64                              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                     36 36.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+2025-07-11 20:56:48.10 spid58s      MSR-2
+MEMORYCLERK_XE_BUFFER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                   12672 12.38 mb
+VM Committed                                  12672 12.38 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-07-11 20:56:48.10 spid58s      MSR-2
+MEMORYCLERK_HOST (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.10 spid38s     Error: 19032, Severity: 10, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-07-11 20:56:48.11 spid58s      MSR-2
+MEMORYCLERK_SOSNODE (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                               51136 49.94 mb
+2025-07-11 20:56:48.11 spid58s      MSR-2
+MEMORYCLERK_SOSNODE (node 64)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                4848 4.73 mb
+2025-07-11 20:56:48.12 spid58s      MSR-2
+MEMORYCLERK_SOSNODE (Total)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                               55984 54.67 mb
+2025-07-11 20:56:48.12 spid58s      MSR-2
+MEMORYCLERK_SOSOS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                     256 256.00 kb
+VM Committed                                    256 256.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2624 2.56 mb
+2025-07-11 20:56:48.13 spid58s      MSR-2
+MEMORYCLERK_SOSMEMMANAGER (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                    1036 1.01 mb
+VM Committed                                    792 792.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-07-11 20:56:48.13 spid58s      MSR-2
+MEMORYCLERK_BITMAP (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                 1048576 1.00 gb
+VM Committed                                     16 16.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-07-11 20:56:48.14 spid58s      MSR-2
+MEMORYCLERK_SQLGENERAL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                6720 6.56 mb
+2025-07-11 20:56:48.14 spid58s      MSR-2
+MEMORYCLERK_SQLBUFFERPOOL (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                   49668 48.50 mb
+VM Committed                                  11336 11.07 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2696 2.63 mb
+2025-07-11 20:56:48.15 spid58s      MSR-2
+MEMORYCLERK_SQLQUERYPLAN (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1064 1.04 mb
+2025-07-11 20:56:48.15 spid58s      MSR-2
+MEMORYCLERK_SQLQUERYEXEC (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-07-11 20:56:48.16 spid58s      MSR-2
+MEMORYCLERK_SQLOPTIMIZER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1008 1008.00 kb
+2025-07-11 20:56:48.16 spid58s      MSR-2
+MEMORYCLERK_QUERYDISKSTORE (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 120 120.00 kb
+2025-07-11 20:56:48.17 spid58s      MSR-2
+MEMORYCLERK_QUERYDISKSTORE_STATS (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  88 88.00 kb
+2025-07-11 20:56:48.17 spid58s      MSR-2
+MEMORYCLERK_SQLUTILITIES (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  80 80.00 kb
+2025-07-11 20:56:48.18 spid58s      MSR-2
+MEMORYCLERK_SQLSTORENG (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                    8640 8.44 mb
+VM Committed                                   8640 8.44 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                9696 9.47 mb
+2025-07-11 20:56:48.18 spid58s      MSR-2
+MEMORYCLERK_SQLCONNECTIONPOOL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2168 2.12 mb
+2025-07-11 20:56:48.19 spid58s      MSR-2
+MEMORYCLERK_SQLCLR (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                  397720 388.40 mb
+VM Committed                                   2268 2.21 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2496 2.44 mb
+2025-07-11 20:56:48.19 spid58s      MSR-2
+MEMORYCLERK_SQLSERVICEBROKER (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 448 448.00 kb
+2025-07-11 20:56:48.19 spid58s      MSR-2
+MEMORYCLERK_SQLHTTP (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.20 spid58s      MSR-2
+MEMORYCLERK_SNI (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.20 spid58s      MSR-2
+MEMORYCLERK_SNI (node 64)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.21 spid58s      MSR-2
+MEMORYCLERK_SNI (Total)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-07-11 20:56:48.21 spid58s      MSR-2
+MEMORYCLERK_FULLTEXT (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 296 296.00 kb
+2025-07-11 20:56:48.22 spid58s      MSR-2
+MEMORYCLERK_SQLXP (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.22 spid58s      MSR-2
+MEMORYCLERK_SQLTRACE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2256 2.20 mb
+2025-07-11 20:56:48.23 spid58s      MSR-2
+MEMORYCLERK_XTP (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2640 2.58 mb
+2025-07-11 20:56:48.23 spid58s      MSR-2
+MEMORYCLERK_CSILOBCOMPRESSION (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-07-11 20:56:48.24 spid58s      MSR-2
+MEMORYCLERK_SQLSERVICEBROKERTRANSPORT (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 392 392.00 kb
+2025-07-11 20:56:48.24 spid58s      MSR-2
+MEMORYCLERK_FILETABLE (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.25 spid58s      MSR-2
+MEMORYCLERK_SPATIAL (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-07-11 20:56:48.26 spid58s      MSR-2
+MEMORYCLERK_HADR (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-07-11 20:56:48.26 spid58s      MSR-2
+MEMORYCLERK_SQLLOGPOOL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 216 216.00 kb
+2025-07-11 20:56:48.27 spid58s      MSR-2
+MEMORYCLERK_LWC (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-07-11 20:56:48.27 spid58s      MSR-2
+MEMORYCLERK_FSCHUNKER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-07-11 20:56:48.28 spid58s      MSR-2
+MEMORYCLERK_SQLEXTENSIBILITY (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-07-11 20:56:48.28 spid58s      MSR-2
+MEMORYCLERK_SVL (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.29 spid58s      MSR-2
+MEMORYCLERK_SLOG (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-07-11 20:56:48.29 spid58s      MSR-2
+MEMORYCLERK_XDB_PKG_LAUNCHER_MANAGER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.30 spid58s      MSR-2
+MEMORYCLERK_QUERYPROFILE (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-07-11 20:56:48.30 spid58s      MSR-2
+MEMORYCLERK_DEK (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.31 spid58s      MSR-2
+MEMORYCLERK_DBLEDGER (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.31 spid58s      MSR-2
+MEMORYCLERK_EXTERNAL_GOVERNANCE_AUTHORIZATION_ENGINE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.32 spid58s      MSR-2
+MEMORYCLERK_SECURITY (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.32 spid58s      MSR-2
+MEMORYCLERK_EXT_GOV_MGR (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.33 spid58s      MSR-2
+CACHESTORE_STACKFRAMES (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.34 spid58s      MSR-2
+CACHESTORE_STACKFRAMES (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.34 spid58s      MSR-2
+CACHESTORE_STACKFRAMES (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.35 spid58s      MSR-2
+CACHESTORE_OBJCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.35 spid58s      MSR-2
+CACHESTORE_SQLCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1680 1.64 mb
+2025-07-11 20:56:48.36 spid58s      MSR-2
+CACHESTORE_PHDR (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.36 spid58s      MSR-2
+CACHESTORE_XPROC (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.37 spid58s      MSR-2
+CACHESTORE_TEMPTABLES (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-07-11 20:56:48.38 spid58s      MSR-2
+CACHESTORE_NOTIF (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.38 spid58s      MSR-2
+CACHESTORE_VIEWDEFINITIONS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.39 spid58s      MSR-2
+CACHESTORE_XMLDBTYPE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.39 spid58s      MSR-2
+CACHESTORE_XMLDBELEMENT (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.40 spid58s      MSR-2
+CACHESTORE_XMLDBATTRIBUTE (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.40 spid58s      MSR-2
+CACHESTORE_BROKERTBLACS (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.41 spid58s      MSR-2
+CACHESTORE_BROKERKEK (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.41 spid58s      MSR-2
+CACHESTORE_BROKERDSH (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.42 spid58s      MSR-2
+CACHESTORE_BROKERUSERCERTLOOKUP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.42 spid58s      MSR-2
+CACHESTORE_BROKERRSB (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.42 spid58s      MSR-2
+CACHESTORE_BROKERREADONLY (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-07-11 20:56:48.43 spid58s      MSR-2
+CACHESTORE_BROKERTO (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.43 spid58s      MSR-2
+CACHESTORE_EVENTS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.44 spid58s      MSR-2
+CACHESTORE_SEHOBTCOLUMNATTRIBUTE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 120 120.00 kb
+2025-07-11 20:56:48.44 spid58s      MSR-2
+CACHESTORE_SYSTEMROWSET (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-07-11 20:56:48.45 spid58s      MSR-2
+CACHESTORE_FULLTEXTSTOPLIST (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-07-11 20:56:48.45 spid58s      MSR-2
+CACHESTORE_SEARCHPROPERTYLIST (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.46 spid58s      MSR-2
+CACHESTORE_COLUMNSTOREOBJECTPOOL (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-07-11 20:56:48.46 spid58s      MSR-2
+CACHESTORE_QDSRUNTIMESTATS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.47 spid58s      MSR-2
+CACHESTORE_XML_SELECTIVE_DG (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.48 spid58s      MSR-2
+CACHESTORE_XSTORE_AADTOKEN (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 544 544.00 kb
+2025-07-11 20:56:48.48 spid58s      MSR-2
+CACHESTORE_S3_TEMP_CREDENTIAL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-07-11 20:56:48.49 spid58s      MSR-2
+USERSTORE_SCHEMAMGR (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1584 1.55 mb
+2025-07-11 20:56:48.49 spid58s      MSR-2
+USERSTORE_DBMETADATA (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 112 112.00 kb
+2025-07-11 20:56:48.50 spid58s      MSR-2
+USERSTORE_TOKENPERM (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 752 752.00 kb
+2025-07-11 20:56:48.51 spid58s      MSR-2
+USERSTORE_OBJPERM (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 728 728.00 kb
+2025-07-11 20:56:48.52 spid58s      MSR-2
+USERSTORE_SXC (node 0)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.52 spid58s      MSR-2
+USERSTORE_SXC (node 64)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-07-11 20:56:48.52 spid58s      MSR-2
+USERSTORE_SXC (Total)                            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.53 spid58s      MSR-2
+USERSTORE_QDSSTMT (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.54 spid58s      MSR-2
+OBJECTSTORE_SOSTASK (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 232 232.00 kb
+2025-07-11 20:56:48.54 spid58s      MSR-2
+OBJECTSTORE_LBSS (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-07-11 20:56:48.55 spid58s      MSR-2
+OBJECTSTORE_SNI_PACKET (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-07-11 20:56:48.55 spid58s      MSR-2
+OBJECTSTORE_SNI_PACKET (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-07-11 20:56:48.56 spid58s      MSR-2
+OBJECTSTORE_SNI_PACKET (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-07-11 20:56:48.56 spid58s      MSR-2
+OBJECTSTORE_SERVICE_BROKER (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 528 528.00 kb
+2025-07-11 20:56:48.57 spid58s      MSR-2
+OBJECTSTORE_LOCK_MANAGER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                    1024 1.00 mb
+VM Committed                                   1024 1.00 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 648 648.00 kb
+2025-07-11 20:56:48.57 spid58s      MSR-2
+OBJECTSTORE_LOCK_MANAGER (node 64)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-07-11 20:56:48.58 spid58s      MSR-2
+OBJECTSTORE_LOCK_MANAGER (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                    1024 1.00 mb
+VM Committed                                   1024 1.00 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-07-11 20:56:48.58 spid58s      MSR-2
+OBJECTSTORE_SECAUDIT_EVENT_BUFFER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-07-11 20:56:48.59 spid58s      MSR-2
+OBJECTSTORE_XACT_CACHE (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 224 224.00 kb
+2025-07-11 20:56:48.60 spid58s      MSR-2
+Buffer Pool                                   Pages
+---------------------------------------- ----------
+Database                                        271 2.12 mb
+Simulated                                        37 296.00 kb
+Target                                       196608 1.50 gb
+Dirty                                             9 72.00 kb
+In IO                                             0 0.00 bytes
+Latched                                           0 0.00 bytes
+IO error                                          0 0.00 bytes
+In Internal Pool                                  0 
+Page Life Expectancy                              7 
+2025-07-11 20:56:48.60 spid58s      MSR-2
+Buffer Pool Current Clock Stats               Count
+---------------------------------------- ----------
+Never Used                                     1910 14.92 mb
+Stolen or Free                                   38 304.00 kb
+Above Cutoff (HOT)                              243 1.90 mb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                        27 216.00 kb
+Moved to L2                                       0 0.00 bytes
+Evicted                                         127 1016.00 kb
+Evicted Mapped                                    0 0.00 bytes
+2025-07-11 20:56:48.61 spid58s      MSR-2
+Buffer Pool Previous Clock Stats              Count
+---------------------------------------- ----------
+Never Used                                     1963 15.34 mb
+Stolen or Free                                   38 304.00 kb
+Above Cutoff (HOT)                              232 1.81 mb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                       154 1.20 mb
+Moved to L2                                       0 0.00 bytes
+Evicted                                           0 0.00 bytes
+Evicted Mapped                                    0 0.00 bytes
+2025-07-11 20:56:48.62 spid58s      MSR-2
+Procedure Cache                               Value
+---------------------------------------- ----------
+TotalProcs                                        0 
+TotalPages                                      214 1.67 mb
+InUsePages                                        0 0.00 bytes
+2025-07-11 20:56:48.63 spid58s      MSR-2
+Global Memory Objects                         Pages
+---------------------------------------- ----------
+Resource                                        577 4.51 mb
+Locks                                            84 672.00 kb
+XDES                                             46 368.00 kb
+DirtyPageTracking                                59 472.00 kb
+SETLS                                            12 96.00 kb
+SubpDesc Allocators                              12 96.00 kb
+SE SchemaManager                                 74 592.00 kb
+SE Column Metadata Cache                        110 880.00 kb
+SE Column Metadata Cache Store                    1 8.00 kb
+SE Column Store Metadata Cache                   12 96.00 kb
+SQLCache                                        198 1.55 mb
+Replication                                       2 16.00 kb
+ServerGlobal                                    155 1.21 mb
+XP Global                                         2 16.00 kb
+SortTables                                        3 24.00 kb
+2025-07-11 20:56:48.64 spid58s      MSR-2
+Query Memory Objects (internal)               Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       405 3.16 kb
+Current Max                                     405 3.16 kb
+Future Max                                      405 3.16 kb
+Physical Max                                  13395 104.65 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-07-11 20:56:48.65 spid58s      MSR-2
+Small Query Memory Objects (internal)         Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-07-11 20:56:48.65 spid58s      MSR-2
+Query Memory Objects (default)                Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       405 3.16 kb
+Current Max                                     405 3.16 kb
+Future Max                                      405 3.16 kb
+Physical Max                                  13395 104.65 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-07-11 20:56:48.66 spid58s      MSR-2
+Small Query Memory Objects (default)          Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-07-11 20:56:48.67 spid58s      MSR-2
+Optimization Queue (internal)                 Value
+---------------------------------------- ----------
+Overall Memory                            117071872 111.65 mb
+Target Memory                              61693952 58.84 mb
+Last Notification                                 2 SHRINK
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-07-11 20:56:48.67 spid58s      MSR-2
+Small Gateway (internal)                      Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-07-11 20:56:48.68 spid58s      MSR-2
+Medium Gateway (internal)                     Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-07-11 20:56:48.69 spid58s      MSR-2
+Big Gateway (internal)                        Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-07-11 20:56:48.69 spid58s      MSR-2
+Optimization Queue (default)                  Value
+---------------------------------------- ----------
+Overall Memory                            117071872 111.65 mb
+Target Memory                               3653632 3.48 mb
+Last Notification                                 0 STABLE
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-07-11 20:56:48.70 spid58s      MSR-2
+Small Gateway (default)                       Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-07-11 20:56:48.71 spid58s      MSR-2
+Medium Gateway (default)                      Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-07-11 20:56:48.71 spid58s      MSR-2
+Big Gateway (default)                         Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-07-11 20:56:48.72 spid58s      MSR-2
+Memory Pool Manager                              KB
+---------------------------------------- ----------
+Reserved Current                                  0 0.00 bytes
+Reserved Limit                           737869762948245360 -671088.64 tb
+2025-07-11 20:56:48.72 spid58s      MSR-2
+Memory Pool (internal)                           KB
+---------------------------------------- ----------
+Allocations                                  136720 133.52 mb
+Predicted                                    138520 135.27 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                 135504 132.33 mb
+Total Limit                              737869762948382080 -671088.64 tb
+OOM Count                                         0 
+2025-07-11 20:56:48.73 spid58s      MSR-2
+MEMORYBROKER_FOR_CACHE (internal)                KB
+---------------------------------------- ----------
+Allocations                                    8864 8.66 mb
+Rate                                           -184 -184.00 kb
+Target Allocations                             6128 5.98 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 2 SHRINK
+2025-07-11 20:56:48.73 spid58s      MSR-2
+MEMORYBROKER_FOR_STEAL (internal)                KB
+---------------------------------------- ----------
+Allocations                                   87112 85.07 mb
+Rate                                            -24 -24.00 kb
+Target Allocations                            60248 58.84 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 2 SHRINK
+2025-07-11 20:56:48.74 spid58s      MSR-2
+MEMORYBROKER_FOR_RESERVE (internal)              KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.74 spid58s      MSR-2
+MEMORYBROKER_FOR_COMMITTED (internal)            KB
+---------------------------------------- ----------
+Allocations                                   38104 37.21 mb
+Rate                                           1800 1.76 mb
+Target Allocations                            27592 26.95 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 2 SHRINK
+2025-07-11 20:56:48.75 spid58s      MSR-2
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (internal)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.75 spid58s      MSR-2
+MEMORYBROKER_FOR_XTP (internal)                  KB
+---------------------------------------- ----------
+Allocations                                    2640 2.58 mb
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.76 spid58s      MSR-2
+Memory Pool (default)                            KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Predicted                                     26784 26.16 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                 135504 132.33 mb
+Total Limit                              737869762948382064 -671088.64 tb
+OOM Count                                         0 
+2025-07-11 20:56:48.76 spid58s      MSR-2
+MEMORYBROKER_FOR_CACHE (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.77 spid58s      MSR-2
+MEMORYBROKER_FOR_STEAL (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.77 spid58s      MSR-2
+MEMORYBROKER_FOR_RESERVE (default)               KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                            26784 26.16 mb
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.78 spid58s      MSR-2
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (default)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.78 spid58s      MSR-2
+MEMORYBROKER_FOR_XTP (default)                   KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3568 3.48 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      114328 111.65 mb
+Last Notification                                 0 STABLE
+2025-07-11 20:56:48.79 spid58s      MSR-2
+Memory Broker Clerk (Buffer Pool)             Pages
+---------------------------------------- ----------
+Total                                           271 2.12 mb
+Simulated                                        37 296.00 kb
+Simulation Benefit                                0 
+Internal Benefit                                  0 
+External Benefit                                  0 
+Value Of Memory                                   0 
+Periodic Freed                                    0 0.00 bytes
+Internal Freed                                    0 0.00 bytes
+2025-07-11 20:57:04.20 spid38s     Error: 25725, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.

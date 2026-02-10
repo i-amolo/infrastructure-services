@@ -1,0 +1,68 @@
+services:
+  postgres:
+    image: percona/percona-distribution-postgresql:16.4-multi
+    container_name: percona-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: prj_lookup_db
+    ports:
+      - "5432:5432"
+      
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: iamolo@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      
+  mysql:
+    image: percona/percona-server:latest
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Pa55w0rd
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      
+  rabbitmq:
+    image: rabbitmq:4.0.2-management
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    user: mssql
+    container_name: sqlserver
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "!Pa55w0rd"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+#      - sqlserver_log:/var/opt/mssql/log
+      
+volumes:
+  pg_data:
+  pgadmin_data:
+  mysql_data:
+  rabbitmq_data:
+  sqlserver_data:
+  sqlserver_log:

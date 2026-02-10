@@ -1,0 +1,25 @@
+sqlservr
+  Version 16.0.4195.2
+  Build ID 2b5a0d22100a0eb90c87a919a7165b5fca54e23ab12d619cb1c815241fb4b556
+  Build Type release
+  Git Version 5569b29
+  Built at Thu Apr 24 05:26:05 GMT 2025
+
+PAL
+  Build ID ba9a003199ed6a259ad2d87a1777a533ef1e2fc01cb51f1ca6de8bd0016767bc
+  Build Type release
+  Git Version 3141487
+  Built at Thu Apr 24 05:23:37 GMT 2025
+
+Packages
+  system.security                         mssql-16.0.4195.2_4_official-release
+  system.tzdb                             mssql-16.0.4195.2_4_official-release
+  system.certificates                     mssql-16.0.4195.2_4_official-release
+  system.netfx                            4.7.0.0.202406173
+  system                                  mssql-16.0.4195.2_4_official-release
+  sqlagent                                16.0.4195.2
+  system.wmi                              10.0.17763.5820.202406173
+  sqlconnector                            16.0.4195.2
+  system.common                           10.0.17763.5820.202406173
+  sqlservr                                16.0.4195.2
+  secforwarderxplat                       16.0.4195.2

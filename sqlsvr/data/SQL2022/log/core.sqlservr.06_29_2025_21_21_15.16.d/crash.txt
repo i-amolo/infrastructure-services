@@ -1,0 +1,41 @@
+This program has encountered a fatal error and cannot continue running at Sat Jun 28 08:42:24 2025
+The following diagnostic information is available:
+
+         Reason: 0x00000004
+        Message: RETAIL ASSERT: Expression=(!"A timeout or deadlock was encountered while waiting" " for a thread to terminate/suspend/resume.") File=NtumWaiter.cpp Line=829
+    Stack Trace:
+                 file://package6/windows/system32/sqlpal.dll+0x0000000000209C12
+                 file://package6/windows/system32/sqlpal.dll+0x0000000000208F69
+                 file://package6/windows/system32/sqlpal.dll+0x00000000002185A5
+                 file://package6/windows/system32/sqlpal.dll+0x00000000002777BD
+                 file://package6/windows/system32/sqlpal.dll+0x0000000000253629
+                 file://package6/windows/system32/sqlpal.dll+0x0000000000248C75
+                 file://package6/windows/system32/sqlpal.dll+0x00000000002468B1
+                 file://package6/windows/system32/sqlpal.dll+0x0000000000201F6E
+                 file://package6/windows/system32/sqlpal.dll+0x00000000003A02FB
+                 file:///windows/system32/ntdll.dll+0x00000000000F95BF
+                 file:///Windows/SYSTEM32/KERNELBASE.dll+0x000000000007E130
+                 file:///binn/sqldk.dll+0x00000000000B569E
+                 file:///binn/sqldk.dll+0x00000000000B4B8A
+                 file:///binn/sqlservr.exe+0x000000000000C063
+                 file:///binn/sqlmin.dll+0x00000000018A899E
+                 file:///binn/sqlmin.dll+0x0000000001816B6F
+                 file:///binn/sqlmin.dll+0x0000000001818AA5
+                 file:///binn/sqlmin.dll+0x0000000002018888
+                 file:///binn/sqlservr.exe+0x0000000000012DBF
+                 file:///binn/sqlservr.exe+0x0000000000017FC5
+                 file:///binn/sqlservr.exe+0x000000000000B021
+                 file:///binn/sqlservr.exe+0x0000000000053D24
+                 file:///Windows/SYSTEM32/KERNEL32.DLL+0x0000000000017AF4
+                 file:///windows/system32/ntdll.dll+0x00000000000244A1
+        Process: 16 - sqlservr
+         Thread: 126 (application thread 0x1d0)
+    Instance Id: d20c4325-0875-4a8f-ab9f-663e29ecb679
+       Crash Id: b09ee219-62d8-4659-bc41-27c0a8b2bcfd
+    Build stamp: 2b5a0d22100a0eb90c87a919a7165b5fca54e23ab12d619cb1c815241fb4b556
+   Distribution: Ubuntu 22.04.5 LTS
+     Processors: 12
+   Total Memory: 2058805248 bytes
+      Timestamp: Sat Jun 28 08:42:24 2025
+     Last errno: 2
+Last errno text: No such file or directory

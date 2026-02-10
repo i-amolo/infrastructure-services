@@ -1,0 +1,1129 @@
+   0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-06-27 03:31:34.43 spid59s      MSR-8
+MEMORYCLERK_SQLEXTENSIBILITY (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-27 03:31:34.44 spid59s      MSR-8
+MEMORYCLERK_SVL (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.45 spid59s      MSR-8
+MEMORYCLERK_SLOG (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-06-27 03:31:34.45 spid59s      MSR-8
+MEMORYCLERK_XDB_PKG_LAUNCHER_MANAGER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.46 spid59s      MSR-8
+MEMORYCLERK_QUERYPROFILE (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-27 03:31:34.46 spid59s      MSR-8
+MEMORYCLERK_DEK (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.47 spid59s      MSR-8
+MEMORYCLERK_EXTERNAL_GOVERNANCE_AUTHORIZATION_ENGINE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.47 spid59s      MSR-8
+MEMORYCLERK_SECURITY (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.48 spid59s      MSR-8
+MEMORYCLERK_EXT_GOV_MGR (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.49 spid59s      MSR-8
+CACHESTORE_STACKFRAMES (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.49 spid59s      MSR-8
+CACHESTORE_STACKFRAMES (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.50 spid59s      MSR-8
+CACHESTORE_STACKFRAMES (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.50 spid59s      MSR-8
+CACHESTORE_OBJCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.51 spid59s      MSR-8
+CACHESTORE_SQLCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1680 1.64 mb
+2025-06-27 03:31:34.51 spid59s      MSR-8
+CACHESTORE_PHDR (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.52 spid59s      MSR-8
+CACHESTORE_XPROC (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.53 spid59s      MSR-8
+CACHESTORE_TEMPTABLES (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-06-27 03:31:34.53 spid59s      MSR-8
+CACHESTORE_NOTIF (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.54 spid59s      MSR-8
+CACHESTORE_VIEWDEFINITIONS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.54 spid59s      MSR-8
+CACHESTORE_XMLDBTYPE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.55 spid59s      MSR-8
+CACHESTORE_XMLDBELEMENT (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.56 spid59s      MSR-8
+CACHESTORE_XMLDBATTRIBUTE (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.56 spid59s      MSR-8
+CACHESTORE_BROKERTBLACS (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.57 spid59s      MSR-8
+CACHESTORE_BROKERKEK (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.57 spid59s      MSR-8
+CACHESTORE_BROKERDSH (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.58 spid59s      MSR-8
+CACHESTORE_BROKERUSERCERTLOOKUP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.59 spid59s      MSR-8
+CACHESTORE_BROKERRSB (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.59 spid59s      MSR-8
+CACHESTORE_BROKERREADONLY (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-27 03:31:34.60 spid59s      MSR-8
+CACHESTORE_BROKERTO (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.61 spid59s      MSR-8
+CACHESTORE_EVENTS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.61 spid59s      MSR-8
+CACHESTORE_SEHOBTCOLUMNATTRIBUTE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 120 120.00 kb
+2025-06-27 03:31:34.62 spid59s      MSR-8
+CACHESTORE_SYSTEMROWSET (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 480 480.00 kb
+2025-06-27 03:31:34.63 spid59s      MSR-8
+CACHESTORE_FULLTEXTSTOPLIST (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-27 03:31:34.64 spid59s      MSR-8
+CACHESTORE_SEARCHPROPERTYLIST (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.64 spid59s      MSR-8
+CACHESTORE_COLUMNSTOREOBJECTPOOL (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-27 03:31:34.65 spid59s      MSR-8
+CACHESTORE_QDSRUNTIMESTATS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.66 spid59s      MSR-8
+CACHESTORE_XML_SELECTIVE_DG (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.66 spid59s      MSR-8
+CACHESTORE_XSTORE_AADTOKEN (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 544 544.00 kb
+2025-06-27 03:31:34.67 spid59s      MSR-8
+CACHESTORE_S3_TEMP_CREDENTIAL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-27 03:31:34.68 spid59s      MSR-8
+USERSTORE_SCHEMAMGR (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1624 1.59 mb
+2025-06-27 03:31:34.69 spid59s      MSR-8
+USERSTORE_DBMETADATA (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  80 80.00 kb
+2025-06-27 03:31:34.70 spid59s      MSR-8
+USERSTORE_TOKENPERM (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 992 992.00 kb
+2025-06-27 03:31:34.71 spid59s      MSR-8
+USERSTORE_OBJPERM (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 520 520.00 kb
+2025-06-27 03:31:34.72 spid59s      MSR-8
+USERSTORE_SXC (node 0)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.73 spid59s      MSR-8
+USERSTORE_SXC (node 64)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-27 03:31:34.74 spid59s      MSR-8
+USERSTORE_SXC (Total)                            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.76 spid59s      MSR-8
+USERSTORE_QDSSTMT (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.77 spid59s      MSR-8
+OBJECTSTORE_SOSTASK (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 248 248.00 kb
+2025-06-27 03:31:34.78 spid59s      MSR-8
+OBJECTSTORE_LBSS (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-27 03:31:34.79 spid59s      MSR-8
+OBJECTSTORE_SNI_PACKET (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-27 03:31:34.80 spid59s      MSR-8
+OBJECTSTORE_SNI_PACKET (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-27 03:31:34.81 spid59s      MSR-8
+OBJECTSTORE_SNI_PACKET (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-27 03:31:34.82 spid59s      MSR-8
+OBJECTSTORE_SERVICE_BROKER (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 528 528.00 kb
+2025-06-27 03:31:34.83 spid59s      MSR-8
+OBJECTSTORE_LOCK_MANAGER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                     512 512.00 kb
+VM Committed                                    512 512.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 648 648.00 kb
+2025-06-27 03:31:34.83 spid59s      MSR-8
+OBJECTSTORE_LOCK_MANAGER (node 64)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-27 03:31:34.84 spid59s      MSR-8
+OBJECTSTORE_LOCK_MANAGER (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                     512 512.00 kb
+VM Committed                                    512 512.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-06-27 03:31:34.85 spid59s      MSR-8
+OBJECTSTORE_SECAUDIT_EVENT_BUFFER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-27 03:31:34.86 spid59s      MSR-8
+OBJECTSTORE_XACT_CACHE (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-27 03:31:34.87 spid59s      MSR-8
+Buffer Pool                                   Pages
+---------------------------------------- ----------
+Database                                        316 2.47 mb
+Simulated                                         0 0.00 bytes
+Target                                       196608 1.50 gb
+Dirty                                           215 1.68 mb
+In IO                                             0 0.00 bytes
+Latched                                           0 0.00 bytes
+IO error                                          0 0.00 bytes
+In Internal Pool                                  0 
+Page Life Expectancy                            404 
+2025-06-27 03:31:34.89 spid59s      MSR-8
+Buffer Pool Current Clock Stats               Count
+---------------------------------------- ----------
+Never Used                                      680 5.31 mb
+Stolen or Free                                  319 2.49 mb
+Above Cutoff (HOT)                               21 168.00 kb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         3 24.00 kb
+Moved to L2                                       0 0.00 bytes
+Evicted                                           0 0.00 bytes
+Evicted Mapped                                    0 0.00 bytes
+2025-06-27 03:31:34.90 spid59s      MSR-8
+Buffer Pool Previous Clock Stats              Count
+---------------------------------------- ----------
+Never Used                                     3741 29.23 mb
+Stolen or Free                                  484 3.78 mb
+Above Cutoff (HOT)                              224 1.75 mb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         2 16.00 kb
+Moved to L2                                       0 0.00 bytes
+Evicted                                           3 24.00 kb
+Evicted Mapped                                    0 0.00 bytes
+2025-06-27 03:31:34.91 spid59s      MSR-8
+Procedure Cache                               Value
+---------------------------------------- ----------
+TotalProcs                                        0 
+TotalPages                                      214 1.67 mb
+InUsePages                                        0 0.00 bytes
+2025-06-27 03:31:34.92 spid59s      MSR-8
+Global Memory Objects                         Pages
+---------------------------------------- ----------
+Resource                                        567 4.43 mb
+Locks                                            84 672.00 kb
+XDES                                             46 368.00 kb
+DirtyPageTracking                                50 400.00 kb
+SETLS                                            12 96.00 kb
+SubpDesc Allocators                              12 96.00 kb
+SE SchemaManager                                 73 584.00 kb
+SE Column Metadata Cache                        116 928.00 kb
+SE Column Metadata Cache Store                    1 8.00 kb
+SE Column Store Metadata Cache                   12 96.00 kb
+SQLCache                                        198 1.55 mb
+Replication                                       2 16.00 kb
+ServerGlobal                                    155 1.21 mb
+XP Global                                         2 16.00 kb
+SortTables                                        3 24.00 kb
+2025-06-27 03:31:34.94 spid59s      MSR-8
+Query Memory Objects (internal)               Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       405 3.16 kb
+Current Max                                     405 3.16 kb
+Future Max                                      405 3.16 kb
+Physical Max                                  13230 103.36 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-27 03:31:34.95 spid59s      MSR-8
+Small Query Memory Objects (internal)         Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-27 03:31:34.96 spid59s      MSR-8
+Query Memory Objects (default)                Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       405 3.16 kb
+Current Max                                     405 3.16 kb
+Future Max                                      405 3.16 kb
+Physical Max                                  13230 103.36 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-27 03:31:34.97 spid59s      MSR-8
+Small Query Memory Objects (default)          Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-27 03:31:34.98 spid59s      MSR-8
+Optimization Queue (internal)                 Value
+---------------------------------------- ----------
+Overall Memory                            115679232 110.32 mb
+Target Memory                              67166208 64.05 mb
+Last Notification                                 2 SHRINK
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-27 03:31:34.99 spid59s      MSR-8
+Small Gateway (internal)                      Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-27 03:31:35.00 spid59s      MSR-8
+Medium Gateway (internal)                     Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-27 03:31:35.00 spid59s      MSR-8
+Big Gateway (internal)                        Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-06-27 03:31:35.01 spid59s      MSR-8
+Optimization Queue (default)                  Value
+---------------------------------------- ----------
+Overall Memory                            115679232 110.32 mb
+Target Memory                               3612672 3.45 mb
+Last Notification                                 0 STABLE
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-27 03:31:35.01 spid59s      MSR-8
+Small Gateway (default)                       Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-27 03:31:35.02 spid59s      MSR-8
+Medium Gateway (default)                      Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-27 03:31:35.02 spid59s      MSR-8
+Big Gateway (default)                         Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-06-27 03:31:35.03 spid59s      MSR-8
+Memory Pool Manager                              KB
+---------------------------------------- ----------
+Reserved Current                                  0 0.00 bytes
+Reserved Limit                               115616 112.91 mb
+2025-06-27 03:31:35.03 spid59s      MSR-8
+Memory Pool (internal)                           KB
+---------------------------------------- ----------
+Allocations                                  133632 130.50 mb
+Predicted                                    133632 130.50 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                 133888 130.75 mb
+Total Limit                                  249248 243.41 mb
+OOM Count                                         0 
+2025-06-27 03:31:35.04 spid59s      MSR-8
+MEMORYBROKER_FOR_CACHE (internal)                KB
+---------------------------------------- ----------
+Allocations                                    8704 8.50 mb
+Rate                                           -288 -288.00 kb
+Target Allocations                             6136 5.99 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 2 SHRINK
+2025-06-27 03:31:35.05 spid59s      MSR-8
+MEMORYBROKER_FOR_STEAL (internal)                KB
+---------------------------------------- ----------
+Allocations                                   92960 90.78 mb
+Rate                                              0 0.00 bytes
+Target Allocations                            65592 64.05 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 2 SHRINK
+2025-06-27 03:31:35.06 spid59s      MSR-8
+MEMORYBROKER_FOR_RESERVE (internal)              KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.06 spid59s      MSR-8
+MEMORYBROKER_FOR_COMMITTED (internal)            KB
+---------------------------------------- ----------
+Allocations                                   29224 28.54 mb
+Rate                                              0 0.00 bytes
+Target Allocations                            20616 20.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 2 SHRINK
+2025-06-27 03:31:35.07 spid59s      MSR-8
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (internal)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.08 spid59s      MSR-8
+MEMORYBROKER_FOR_XTP (internal)                  KB
+---------------------------------------- ----------
+Allocations                                    2744 2.68 mb
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.08 spid59s      MSR-8
+Memory Pool (default)                            KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Predicted                                     26456 25.84 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                 133888 130.75 mb
+Total Limit                                  249248 243.41 mb
+OOM Count                                         0 
+2025-06-27 03:31:35.09 spid59s      MSR-8
+MEMORYBROKER_FOR_CACHE (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.10 spid59s      MSR-8
+MEMORYBROKER_FOR_STEAL (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.10 spid59s      MSR-8
+MEMORYBROKER_FOR_RESERVE (default)               KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                            26456 25.84 mb
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.11 spid59s      MSR-8
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (default)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.12 spid59s      MSR-8
+MEMORYBROKER_FOR_XTP (default)                   KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             3528 3.45 mb
+Future Allocations                                0 0.00 bytes
+Overall                                      112968 110.32 mb
+Last Notification                                 0 STABLE
+2025-06-27 03:31:35.12 spid59s      MSR-8
+Memory Broker Clerk (Buffer Pool)             Pages
+---------------------------------------- ----------
+Total                                           316 2.47 mb
+Simulated                                         0 0.00 bytes
+Simulation Benefit                                0 
+Internal Benefit                                  0 
+External Benefit                                  0 
+Value Of Memory                                   0 
+Periodic Freed                                    0 0.00 bytes
+Internal Freed                                    0 0.00 bytes
+2025-06-27 03:31:35.15 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (29, VARHEAP, Lookaside heap)
+---------------------------------------- ----------
+Database Id                                       0
+Object Id                                         0
+XTP Object Id                                  -501
+Index Id                                          0
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                  73
+MinSizeClass                                      8
+MaxSizeClass                                   3096
+2025-06-27 03:31:35.16 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (28, PGPOOL, 256K page pool)
+---------------------------------------- ----------
+Database Id                                       0
+Object Id                                         0
+XTP Object Id                                  -501
+Index Id                                          0
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   1
+MinSizeClass                                 262144
+MaxSizeClass                                 262144
+2025-06-27 03:31:35.17 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (27, PGPOOL, 4K page pool)
+---------------------------------------- ----------
+Database Id                                       0
+Object Id                                         0
+XTP Object Id                                  -501
+Index Id                                          0
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   1
+MinSizeClass                                   4096
+MaxSizeClass                                   4096
+2025-06-27 03:31:35.18 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (26, VARHEAP, System heap)
+---------------------------------------- ----------
+Database Id                                       0
+Object Id                                         0
+XTP Object Id                                  -501
+Index Id                                          0
+Allocated (KB)                                  448
+Used (KB)                                       375
+Allocation Count                               2014
+SizeClass Count                                 112
+MinSizeClass                                      1
+MaxSizeClass                                  16384
+2025-06-27 03:31:35.18 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (25, LOOKASIDE, Transaction list element)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     24
+MaxSizeClass                                     24
+2025-06-27 03:31:35.19 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (24, LOOKASIDE, Delta tracker cursor)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     64
+MaxSizeClass                                     64
+2025-06-27 03:31:35.19 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (23, LOOKASIDE, Transaction delta tracker)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     48
+MaxSizeClass                                     48
+2025-06-27 03:31:35.20 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (22, LOOKASIDE, Creation Statement Id Map Entry)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     32
+MaxSizeClass                                     32
+2025-06-27 03:31:35.21 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (21, LOOKASIDE, Creation Statement Id Map)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     72
+MaxSizeClass                                     72
+2025-06-27 03:31:35.21 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (20, LOOKASIDE, Log IO proxy)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    248
+MaxSizeClass                                    248
+2025-06-27 03:31:35.22 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (19, LOOKASIDE, Log IO completion)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    104
+MaxSizeClass                                    104
+2025-06-27 03:31:35.22 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (18, LOOKASIDE, Sequence object insert row)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     88
+MaxSizeClass                                     88
+2025-06-27 03:31:35.23 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (17, LOOKASIDE, Sequence object map entry)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     32
+MaxSizeClass                                     32
+2025-06-27 03:31:35.24 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (16, LOOKASIDE, Sequence object values map)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    192
+MaxSizeClass                                    192
+2025-06-27 03:31:35.24 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (15, LOOKASIDE, Redo transaction map entry)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     72
+MaxSizeClass                                     72
+2025-06-27 03:31:35.25 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (14, LOOKASIDE, Transaction recent rows)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    720
+MaxSizeClass                                    720
+2025-06-27 03:31:35.26 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (13, LOOKASIDE, Heap cursor)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    472
+MaxSizeClass                                    472
+2025-06-27 03:31:35.27 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (12, LOOKASIDE, Range cursor)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    832
+MaxSizeClass                                    832
+2025-06-27 03:31:35.28 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (11, LOOKASIDE, Hash cursor)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    320
+MaxSizeClass                                    320
+2025-06-27 03:31:35.28 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (10, LOOKASIDE, Transaction dependent ring buffer)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   1560
+MaxSizeClass                                   1560
+2025-06-27 03:31:35.29 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (9, LOOKASIDE, Transaction save-point set entry)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    112
+MaxSizeClass                                    112
+2025-06-27 03:31:35.29 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (8, LOOKASIDE, Transaction FK validation sets)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                     96
+MaxSizeClass                                     96
+2025-06-27 03:31:35.30 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (7, LOOKASIDE, Transaction partially-inserted rows set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    536
+MaxSizeClass                                    536
+2025-06-27 03:31:35.30 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (6, LOOKASIDE, Transaction constraint set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   2584
+MaxSizeClass                                   2584
+2025-06-27 03:31:35.31 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (5, LOOKASIDE, Transaction save-point set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                    536
+MaxSizeClass                                    536
+2025-06-27 03:31:35.31 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (4, LOOKASIDE, Transaction write set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   1304
+MaxSizeClass                                   1304
+2025-06-27 03:31:35.32 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (3, LOOKASIDE, Transaction scan set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   2840
+MaxSizeClass                                   2840
+2025-06-27 03:31:35.33 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (2, LOOKASIDE, Transaction read set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   3096
+MaxSizeClass                                   3096
+2025-06-27 03:31:35.34 spid59s     [INFO]  MSExtra-8
+XTP_MEMORY_CONSUMER (1, LOOKASIDE, Transaction)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   1472
+MaxSizeClass                                   1472
+2025-06-27 03:31:35.35 spid59s     Error: 701, Severity: 17, State: 123.
+2025-06-27 03:31:35.35 spid59s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-06-27 03:31:37.81 spid52      [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-27 03:31:37.82 spid52      Starting up database 'msdb'.
+2025-06-27 03:31:38.58 Server      Long Sync IO: Scheduler 6 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-27 03:31:39.26 spid72s     Timeout waiting for external dump process 500.
+2025-06-27 03:31:39.27 spid52      1 transactions rolled forward in database 'msdb' (4:0). This is an informational message only. No user action is required.
+2025-06-27 03:31:39.29 spid57s     Always On: The availability replica manager is going offline because the local Windows Server Failover Clustering (WSFC) node has lost quorum. This is an informational message only. No user action is required.
+2025-06-27 03:31:39.30 spid57s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2025-06-27 03:31:39.31 spid57s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2025-06-27 03:31:39.31 spid52      0 transactions rolled back in database 'msdb' (4:0). This is an informational message only. No user action is required.

@@ -1,0 +1,1247 @@
+2025-06-28 00:18:33.15 Server      Microsoft SQL Server 2022 (RTM-CU19) (KB5054531) - 16.0.4195.2 (X64) 
+	Apr 18 2025 13:42:14 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>
+2025-06-28 00:18:33.16 Server      UTC adjustment: 0:00
+2025-06-28 00:18:33.17 Server      (c) Microsoft Corporation.
+2025-06-28 00:18:33.17 Server      All rights reserved.
+2025-06-28 00:18:33.17 Server      Server process ID is 464.
+2025-06-28 00:18:33.17 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2025-06-28 00:18:33.17 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2025-06-28 00:18:33.21 Server      SQL Server detected 1 sockets with 6 cores per socket and 12 logical processors per socket, 12 total logical processors; using 12 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2025-06-28 00:18:33.21 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2025-06-28 00:18:33.21 Server      Detected 1571 MB of RAM, 113 MB of available memory, 113 MB of available page file. This is an informational message; no user action is required.
+2025-06-28 00:18:33.22 Server      Using conventional memory in the memory manager.
+2025-06-28 00:18:33.22 Server      Detected pause instruction latency: 128 cycles.
+2025-06-28 00:18:33.22 Server      SQL Server detected the following NUMA node configuration (NUMA Node number 0, Processor Group number 0, CPU Mask 0x0000000000000fff).
+2025-06-28 00:18:33.23 Server      Page exclusion bitmap is enabled.
+2025-06-28 00:18:33.29 Server      Buffer pool extension is not supported on Linux platform.
+2025-06-28 00:18:33.29 Server      Buffer Pool: Allocating 131072 bytes for 9547 hashPages.
+2025-06-28 00:18:33.49 Server      Buffer pool extension is already disabled. No action is necessary.
+2025-06-28 00:18:33.85 Server      Installing Client TLS certificates to the store.
+2025-06-28 00:18:33.86 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2025-06-28 00:18:33.95 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2025-06-28 00:18:34.07 Server      Query Store settings initialized with enabled = 1, 
+2025-06-28 00:18:34.25 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2025-06-28 00:18:34.30 Server      Node configuration: node 0: CPU mask: 0x0000000000000fff:0 Active CPU mask: 0x0000000000000fff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2025-06-28 00:18:34.54 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2025-06-28 00:18:36.55 Server      In-Memory OLTP initialized on lowend machine.
+2025-06-28 00:18:36.89 Server      CLR version v4.0.30319 loaded.
+2025-06-28 00:19:08.39 Server      Common language runtime (CLR) functionality initialized.
+2025-06-28 00:19:09.65 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2025-06-28 00:19:09.66 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2025-06-28 00:19:09.69 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2025-06-28 00:19:09.70 Server      clwb is selected for pmem flush operation.
+2025-06-28 00:19:09.70 Server      Software Usage Metrics is disabled.
+2025-06-28 00:19:09.75 spid36s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-28 00:19:09.77 spid36s     Starting up database 'master'.
+2025-06-28 00:19:10.51 Server      External governance manager initialized
+2025-06-28 00:19:16.64 spid36s      Failed allocate pages: FAIL_PAGE_ALLOCATION 1
+2025-06-28 00:19:16.82 spid36s      MSR-1
+Process/System Counts                         Value
+---------------------------------------- ----------
+Available Physical Memory                  26267648 25.05 mb
+Available Virtual Memory                 70364449144833 64.00 tb
+Available Paging File                      26267648 25.05 mb
+Working Set                              4294967296 4.00 gb
+Percent of Committed Memory in WS               100 
+Page Faults                                       0 
+System physical memory high                       0 false
+System physical memory low                        0 false
+Process physical memory low                       1 true
+Process virtual memory low                        0 false
+2025-06-28 00:19:16.97 spid36s      MSR-1
+Memory Manager                                   KB
+---------------------------------------- ----------
+VM Reserved                                 1747900 1.67 gb
+VM Committed                                  87436 85.39 mb
+Locked Pages Allocated                            0 0.00 bytes
+Large Pages Allocated                             0 0.00 bytes
+Emergency Memory                               1024 1.00 mb
+Emergency Memory In Use                           8 8.00 kb
+Target Committed                              87440 85.39 mb
+Current Committed                             87440 85.39 mb
+Pages Allocated                               68200 66.60 mb
+Pages Reserved                                    0 0.00 bytes
+Pages Free                                       48 48.00 kb
+Pages In Use                                  87280 85.23 mb
+Page Alloc Potential                          -4208 -4.11 mb
+NUMA Growth Phase                                 2 Steady
+Last OOM Factor                                   1 AllocationPotential
+Last OS Error                                     0 
+2025-06-28 00:19:17.16 spid36s      MSR-1
+Memory node Id = 0                               KB
+---------------------------------------- ----------
+VM Reserved                                 1747772 1.67 gb
+VM Committed                                  87400 85.35 mb
+Locked Pages Allocated                            0 0.00 bytes
+Pages Allocated                               68200 66.60 mb
+Pages Free                                       48 48.00 kb
+Target Committed                              87400 85.35 mb
+Current Committed                             87400 85.35 mb
+Foreign Committed                                 0 0.00 bytes
+Away Committed                                    0 0.00 bytes
+Taken Away Committed                              0 0.00 bytes
+2025-06-28 00:19:17.28 spid36s      MSR-1
+Memory node Id = 64                              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                     36 36.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+2025-06-28 00:19:17.44 spid36s      MSR-1
+MEMORYCLERK_XE_BUFFER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                    4224 4.13 mb
+VM Committed                                   4224 4.13 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-06-28 00:19:17.66 spid36s      MSR-1
+MEMORYCLERK_HOST (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:19:17.87 spid36s      MSR-1
+MEMORYCLERK_SOSNODE (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                               36080 35.23 mb
+2025-06-28 00:19:18.38 spid36s      MSR-1
+MEMORYCLERK_SOSNODE (node 64)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                4840 4.73 mb
+2025-06-28 00:19:18.66 spid36s      MSR-1
+MEMORYCLERK_SOSNODE (Total)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                               40920 39.96 mb
+2025-06-28 00:19:19.41 spid36s      MSR-1
+MEMORYCLERK_SOSOS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                     256 256.00 kb
+VM Committed                                    256 256.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2624 2.56 mb
+2025-06-28 00:19:19.62 spid36s      MSR-1
+MEMORYCLERK_SOSMEMMANAGER (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                     588 588.00 kb
+VM Committed                                    444 444.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-06-28 00:19:19.81 spid36s      MSR-1
+MEMORYCLERK_BITMAP (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                 1048576 1.00 gb
+VM Committed                                     16 16.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-06-28 00:19:20.31 spid36s      MSR-1
+MEMORYCLERK_SQLGENERAL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                4696 4.59 mb
+2025-06-28 00:19:20.60 spid36s      MSR-1
+MEMORYCLERK_SQLBUFFERPOOL (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                   49284 48.13 mb
+VM Committed                                  10564 10.32 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-28 00:19:21.31 spid36s      MSR-1
+MEMORYCLERK_SQLQUERYPLAN (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 752 752.00 kb
+2025-06-28 00:19:22.05 spid36s      MSR-1
+MEMORYCLERK_SQLQUERYEXEC (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-06-28 00:19:22.82 spid36s      MSR-1
+MEMORYCLERK_SQLOPTIMIZER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1008 1008.00 kb
+2025-06-28 00:19:23.25 spid36s      MSR-1
+MEMORYCLERK_QUERYDISKSTORE (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  88 88.00 kb
+2025-06-28 00:19:24.87 spid36s      MSR-1
+MEMORYCLERK_QUERYDISKSTORE_STATS (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  88 88.00 kb
+2025-06-28 00:19:27.38 spid36s      MSR-1
+MEMORYCLERK_SQLUTILITIES (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-06-28 00:19:28.79 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:19:30.04 spid36s      MSR-1
+MEMORYCLERK_SQLSTORENG (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                      64 64.00 kb
+VM Committed                                     64 64.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                3776 3.69 mb
+2025-06-28 00:19:33.27 spid36s      MSR-1
+MEMORYCLERK_SQLCONNECTIONPOOL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1168 1.14 mb
+2025-06-28 00:19:34.40 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:19:34.38 spid36s      MSR-1
+MEMORYCLERK_SQLCLR (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                  397740 388.42 mb
+VM Committed                                   2268 2.21 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2480 2.42 mb
+2025-06-28 00:19:37.11 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:19:37.20 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:19:37.84 spid36s      MSR-1
+MEMORYCLERK_SQLSERVICEBROKER (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 288 288.00 kb
+2025-06-28 00:19:39.19 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:19:40.32 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:19:41.63 spid36s      MSR-1
+MEMORYCLERK_SNI (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:19:48.31 spid36s      MSR-1
+MEMORYCLERK_SNI (node 64)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:19:51.10 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:19:56.27 spid36s      MSR-1
+MEMORYCLERK_SNI (Total)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-28 00:19:59.52 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:20:00.71 spid36s      MSR-1
+MEMORYCLERK_SQLXP (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:20:03.23 spid36s      MSR-1
+MEMORYCLERK_SQLTRACE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 152 152.00 kb
+2025-06-28 00:20:06.91 spid36s      MSR-1
+MEMORYCLERK_XTP (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2640 2.58 mb
+2025-06-28 00:20:07.44 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:20:14.13 spid36s      MSR-1
+MEMORYCLERK_CSILOBCOMPRESSION (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-28 00:20:36.13 spid36s      MSR-1
+MEMORYCLERK_SQLSERVICEBROKERTRANSPORT (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 384 384.00 kb
+2025-06-28 00:20:37.11 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:20:44.83 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:20:49.36 spid36s      MSR-1
+MEMORYCLERK_SPATIAL (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-28 00:21:09.45 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:21:13.14 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:21:16.62 spid36s      MSR-1
+MEMORYCLERK_HADR (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:21:20.07 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:21:23.48 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:21:29.39 spid36s      MSR-1
+MEMORYCLERK_SQLLOGPOOL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 120 120.00 kb
+2025-06-28 00:21:44.11 spid36s      MSR-1
+MEMORYCLERK_FSCHUNKER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-06-28 00:21:44.57 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:22:36.91 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:22:49.30 spid36s      MSR-1
+MEMORYCLERK_SVL (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:23:09.97 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:23:17.89 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:23:21.20 spid36s      MSR-1
+MEMORYCLERK_QUERYPROFILE (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-28 00:23:33.41 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:23:35.58 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:23:45.36 spid36s      MSR-1
+MEMORYCLERK_DEK (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:23:51.52 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:23:57.48 spid36s      MSR-1
+MEMORYCLERK_EXTERNAL_GOVERNANCE_AUTHORIZATION_ENGINE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:24:09.26 spid36s      MSR-1
+MEMORYCLERK_SECURITY (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:24:09.83 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:24:12.23 spid36s      MSR-1
+MEMORYCLERK_EXT_GOV_MGR (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:24:15.16 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:24:22.89 spid36s      MSR-1
+CACHESTORE_STACKFRAMES (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:24:31.94 spid36s      MSR-1
+CACHESTORE_STACKFRAMES (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:24:32.38 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:24:38.52 spid36s      MSR-1
+CACHESTORE_STACKFRAMES (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:24:48.30 spid36s      MSR-1
+CACHESTORE_OBJCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:24:50.29 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:24:52.81 spid36s      MSR-1
+CACHESTORE_SQLCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1672 1.63 mb
+2025-06-28 00:24:55.96 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:25:00.90 spid36s      MSR-1
+CACHESTORE_PHDR (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:25:01.50 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:25:06.76 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:25:10.18 spid36s      MSR-1
+CACHESTORE_XPROC (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:25:22.27 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:25:26.02 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:25:31.75 spid36s      MSR-1
+CACHESTORE_TEMPTABLES (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-06-28 00:25:38.08 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:25:56.44 spid36s      MSR-1
+CACHESTORE_NOTIF (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:26:01.87 spid36s      MSR-1
+CACHESTORE_VIEWDEFINITIONS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:26:04.44 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:04.88 spid36s      MSR-1
+CACHESTORE_XMLDBTYPE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:06.63 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:09.51 spid36s      MSR-1
+CACHESTORE_XMLDBELEMENT (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:14.35 spid36s      MSR-1
+CACHESTORE_XMLDBATTRIBUTE (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:17.00 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:17.34 spid36s      MSR-1
+CACHESTORE_BROKERTBLACS (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:26:23.07 spid36s      MSR-1
+CACHESTORE_BROKERKEK (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:26.39 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:27.45 spid36s      MSR-1
+CACHESTORE_BROKERDSH (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:35.10 spid36s      MSR-1
+CACHESTORE_BROKERUSERCERTLOOKUP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:35.39 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:37.37 spid36s      MSR-1
+CACHESTORE_BROKERRSB (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:42.87 spid36s      MSR-1
+CACHESTORE_BROKERREADONLY (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-28 00:26:44.95 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:26:45.37 spid36s      MSR-1
+CACHESTORE_BROKERTO (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:26:45.36 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:26:49.39 spid36s      MSR-1
+CACHESTORE_EVENTS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:26:50.24 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:26:52.27 spid36s      MSR-1
+CACHESTORE_SEHOBTCOLUMNATTRIBUTE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-28 00:26:53.00 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:27:01.77 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:27:06.30 spid36s      MSR-1
+CACHESTORE_SYSTEMROWSET (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-28 00:27:11.00 Server      Long Sync IO: Scheduler 7 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:27:20.39 spid36s      MSR-1
+CACHESTORE_COLUMNSTOREOBJECTPOOL (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-28 00:27:28.33 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:27:29.26 spid36s      MSR-1
+CACHESTORE_QDSRUNTIMESTATS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:27:33.41 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:27:38.41 spid36s      MSR-1
+CACHESTORE_XML_SELECTIVE_DG (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:27:44.63 spid36s      MSR-1
+CACHESTORE_XSTORE_AADTOKEN (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 544 544.00 kb
+2025-06-28 00:27:46.04 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:27:47.74 spid36s      MSR-1
+CACHESTORE_S3_TEMP_CREDENTIAL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-28 00:28:01.97 spid36s      MSR-1
+USERSTORE_SCHEMAMGR (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 392 392.00 kb
+2025-06-28 00:28:02.05 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:28:06.20 spid36s      MSR-1
+USERSTORE_DBMETADATA (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:28:11.17 spid36s      MSR-1
+USERSTORE_TOKENPERM (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 448 448.00 kb
+2025-06-28 00:28:13.70 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:28:14.35 spid36s      MSR-1
+USERSTORE_OBJPERM (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-06-28 00:28:17.82 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:28:23.63 spid36s      MSR-1
+USERSTORE_SXC (node 0)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:28:24.53 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:28:30.69 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:28:49.48 spid36s      MSR-1
+USERSTORE_SXC (node 64)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-28 00:29:08.63 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:29:15.29 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:29:34.55 spid36s      MSR-1
+USERSTORE_SXC (Total)                            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-28 00:29:55.80 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:30:19.67 spid36s      MSR-1
+OBJECTSTORE_SOSTASK (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 144 144.00 kb
+2025-06-28 00:30:34.71 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:30:35.43 spid36s      MSR-1
+OBJECTSTORE_SNI_PACKET (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-28 00:30:42.30 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:30:49.77 spid36s      MSR-1
+OBJECTSTORE_SNI_PACKET (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-28 00:31:03.99 spid36s      MSR-1
+OBJECTSTORE_SNI_PACKET (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-28 00:31:05.73 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:31:13.03 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:31:13.68 spid36s      MSR-1
+OBJECTSTORE_SERVICE_BROKER (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 432 432.00 kb
+2025-06-28 00:31:31.78 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:31:39.56 spid36s      MSR-1
+OBJECTSTORE_LOCK_MANAGER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                     256 256.00 kb
+VM Committed                                    256 256.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 648 648.00 kb
+2025-06-28 00:31:32.96 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:31:50.84 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:31:55.38 spid36s      MSR-1
+OBJECTSTORE_LOCK_MANAGER (node 64)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-28 00:32:01.67 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:32:12.45 spid36s      MSR-1
+OBJECTSTORE_LOCK_MANAGER (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                     256 256.00 kb
+VM Committed                                    256 256.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-06-28 00:32:23.14 spid36s      MSR-1
+OBJECTSTORE_XACT_CACHE (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 208 208.00 kb
+2025-06-28 00:32:23.14 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:32:35.40 spid36s      MSR-1
+Buffer Pool                                   Pages
+---------------------------------------- ----------
+Database                                          2 16.00 kb
+Simulated                                         0 0.00 bytes
+Target                                       196608 1.50 gb
+Dirty                                             0 0.00 bytes
+In IO                                             0 0.00 bytes
+Latched                                           1 8.00 kb
+IO error                                          0 0.00 bytes
+In Internal Pool                                  0 
+Page Life Expectancy                            842 
+2025-06-28 00:32:39.91 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:32:50.27 spid36s      MSR-1
+Buffer Pool Current Clock Stats               Count
+---------------------------------------- ----------
+Never Used                                        0 0.00 bytes
+Stolen or Free                                    0 0.00 bytes
+Above Cutoff (HOT)                                0 0.00 bytes
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         0 0.00 bytes
+Moved to L2                                       0 0.00 bytes
+Evicted                                           0 0.00 bytes
+Evicted Mapped                                    0 0.00 bytes
+2025-06-28 00:32:57.77 spid36s      MSR-1
+Buffer Pool Previous Clock Stats              Count
+---------------------------------------- ----------
+Never Used                                        0 0.00 bytes
+Stolen or Free                                    0 0.00 bytes
+Above Cutoff (HOT)                                0 0.00 bytes
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         0 0.00 bytes
+Moved to L2                                       0 0.00 bytes
+Evicted                                           0 0.00 bytes
+Evicted Mapped                                    0 0.00 bytes
+2025-06-28 00:32:58.92 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:33:07.89 spid36s      MSR-1
+Procedure Cache                               Value
+---------------------------------------- ----------
+TotalProcs                                        0 
+TotalPages                                      213 1.66 mb
+InUsePages                                        0 0.00 bytes
+2025-06-28 00:33:07.92 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:33:19.84 spid36s      MSR-1
+Global Memory Objects                         Pages
+---------------------------------------- ----------
+Resource                                        477 3.73 mb
+Locks                                            84 672.00 kb
+XDES                                             40 320.00 kb
+DirtyPageTracking                                29 232.00 kb
+SETLS                                            12 96.00 kb
+SubpDesc Allocators                              12 96.00 kb
+SE SchemaManager                                 24 192.00 kb
+SE Column Metadata Cache                         12 96.00 kb
+SE Column Metadata Cache Store                    1 8.00 kb
+SE Column Store Metadata Cache                   12 96.00 kb
+SQLCache                                        197 1.54 mb
+Replication                                       2 16.00 kb
+ServerGlobal                                     61 488.00 kb
+XP Global                                         2 16.00 kb
+SortTables                                        3 24.00 kb
+2025-06-28 00:33:23.48 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:33:24.41 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:33:28.49 spid36s      MSR-1
+Query Memory Objects (internal)               Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       255 1.99 kb
+Current Max                                     255 1.99 kb
+Future Max                                      255 1.99 kb
+Physical Max                                   8205 64.10 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-28 00:33:37.56 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:33:43.06 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:33:50.36 spid36s      MSR-1
+Small Query Memory Objects (internal)         Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-28 00:33:58.21 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:34:08.94 spid36s      MSR-1
+Query Memory Objects (default)                Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       255 1.99 kb
+Current Max                                     255 1.99 kb
+Future Max                                      255 1.99 kb
+Physical Max                                   8205 64.10 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-28 00:34:18.28 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:34:18.41 spid36s      MSR-1
+Small Query Memory Objects (default)          Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-28 00:34:21.74 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:34:28.45 spid36s      MSR-1
+Optimization Queue (internal)                 Value
+---------------------------------------- ----------
+Overall Memory                             71761920 68.44 mb
+Target Memory                              41287680 39.38 mb
+Last Notification                                 2 SHRINK
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-28 00:34:36.53 spid36s      MSR-1
+Small Gateway (internal)                      Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-28 00:34:41.49 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:34:47.84 spid36s      MSR-1
+Medium Gateway (internal)                     Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-28 00:34:53.52 spid36s      MSR-1
+Big Gateway (internal)                        Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-06-28 00:34:56.49 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:34:56.63 spid36s      MSR-1
+Optimization Queue (default)                  Value
+---------------------------------------- ----------
+Overall Memory                             71761920 68.44 mb
+Target Memory                               2236416 2.13 mb
+Last Notification                                 0 STABLE
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-28 00:35:01.08 spid36s      MSR-1
+Small Gateway (default)                       Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-28 00:35:03.75 spid36s      MSR-1
+Medium Gateway (default)                      Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-28 00:35:03.78 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:35:04.80 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:35:08.85 spid36s      MSR-1
+Big Gateway (default)                         Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-06-28 00:35:20.02 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:35:23.36 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:35:23.86 spid36s      MSR-1
+Memory Pool Manager                              KB
+---------------------------------------- ----------
+Reserved Current                                  0 0.00 bytes
+Reserved Limit                           737869762948295400 -671088.64 tb
+2025-06-28 00:35:28.80 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:35:31.76 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:35:38.78 spid36s      MSR-1
+Memory Pool (internal)                           KB
+---------------------------------------- ----------
+Allocations                                   86680 84.65 mb
+Predicted                                     86680 84.65 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                  83064 81.12 mb
+Total Limit                              737869762948382080 -671088.64 tb
+OOM Count                                         0 
+2025-06-28 00:35:47.88 spid36s      MSR-1
+MEMORYBROKER_FOR_CACHE (internal)                KB
+---------------------------------------- ----------
+Allocations                                    5536 5.41 mb
+Rate                                              0 0.00 bytes
+Target Allocations                             3760 3.67 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 2 SHRINK
+2025-06-28 00:35:49.33 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:35:51.82 spid36s      MSR-1
+MEMORYBROKER_FOR_STEAL (internal)                KB
+---------------------------------------- ----------
+Allocations                                   59312 57.92 mb
+Rate                                              0 0.00 bytes
+Target Allocations                            40320 39.38 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 2 SHRINK
+2025-06-28 00:35:56.50 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:36:01.09 spid36s      MSR-1
+MEMORYBROKER_FOR_RESERVE (internal)              KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:36:13.33 spid36s      MSR-1
+MEMORYBROKER_FOR_COMMITTED (internal)            KB
+---------------------------------------- ----------
+Allocations                                   19192 18.74 mb
+Rate                                              0 0.00 bytes
+Target Allocations                            13040 12.73 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 2 SHRINK
+2025-06-28 00:36:17.88 spid36s      MSR-1
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (internal)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:36:17.89 Server      Long Sync IO: Scheduler 7 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:36:28.33 spid36s      MSR-1
+MEMORYBROKER_FOR_XTP (internal)                  KB
+---------------------------------------- ----------
+Allocations                                    2640 2.58 mb
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 2 SHRINK
+2025-06-28 00:36:44.28 Server      Error: 17300, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:37:03.87 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:37:01.37 spid36s      MSR-1
+Memory Pool (default)                            KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Predicted                                     16408 16.02 mb
+Private Target                                    0 0.00 bytes
+Private Limit                                     0 0.00 bytes
+Total Target                                  83064 81.12 mb
+Total Limit                              737869762948382064 -671088.64 tb
+OOM Count                                         0 
+2025-06-28 00:37:21.91 Server      Error: 17312, Severity: 16, State: 1. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:37:36.28 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:37:42.75 spid36s      MSR-1
+MEMORYBROKER_FOR_CACHE (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:37:53.60 Server      Error: 28709, Severity: 16, State: 19. (Params:). The error is printed in terse mode because there was error during formatting. Tracing, ETW, notifications etc are skipped.
+2025-06-28 00:38:02.07 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:38:08.24 spid36s      MSR-1
+MEMORYBROKER_FOR_STEAL (default)                 KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:38:28.24 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:38:29.24 spid36s      MSR-1
+MEMORYBROKER_FOR_RESERVE (default)               KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                            16408 16.02 mb
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:38:34.70 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:38:40.57 spid36s      MSR-1
+MEMORYBROKER_FOR_HASHED_DATA_PAGES (default)         KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:38:54.41 spid36s      MSR-1
+MEMORYBROKER_FOR_XTP (default)                   KB
+---------------------------------------- ----------
+Allocations                                       0 0.00 bytes
+Rate                                              0 0.00 bytes
+Target Allocations                             2184 2.13 mb
+Future Allocations                                0 0.00 bytes
+Overall                                       70080 68.44 mb
+Last Notification                                 0 STABLE
+2025-06-28 00:38:55.28 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:38:58.85 spid36s      MSR-1
+Memory Broker Clerk (Buffer Pool)             Pages
+---------------------------------------- ----------
+Total                                             2 16.00 kb
+Simulated                                         0 0.00 bytes
+Simulation Benefit                                0 
+Internal Benefit                                  0 
+External Benefit                                  0 
+Value Of Memory                                   0 
+Periodic Freed                                    0 0.00 bytes
+Internal Freed                                    0 0.00 bytes
+2025-06-28 00:39:07.87 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-28 00:39:09.52 spid36s     Error: 701, Severity: 17, State: 65.
+2025-06-28 00:39:09.52 spid36s     There is insufficient system memory in resource pool 'internal' to run this query.
+2025-06-28 00:39:15.53 Server       Failed allocate pages: FAIL_PAGE_ALLOCATION 1
+C a n n o t   c l o s e   e r r o r   l o g   b e c a u s e   t h e r e   a r e   s t i l l   e r r o r l o g   u s e r s   a c t i v e . 
+ 

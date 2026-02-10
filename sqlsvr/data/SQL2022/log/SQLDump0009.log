@@ -1,0 +1,1065 @@
+00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2624 2.56 mb
+2025-06-30 23:44:00.16 Server      <frame id="08" address="0x8021810EC" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10EC" />
+2025-06-30 23:44:00.16 spid48s      MSR-117
+MEMORYCLERK_SOSMEMMANAGER (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                    2508 2.45 mb
+VM Committed                                   2288 2.23 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-06-30 23:44:00.16 Server      <frame id="09" address="0x8034CB00E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x134B00E" />
+2025-06-30 23:44:00.17 spid48s      MSR-117
+MEMORYCLERK_BITMAP (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                 1048576 1.00 gb
+VM Committed                                     32 32.00 kb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   0 0.00 bytes
+2025-06-30 23:44:00.17 Server      <frame id="10" address="0x808D879D1" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xA79D1" />
+2025-06-30 23:44:00.17 Server      <frame id="11" address="0x808CEAF73" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xAF73" />
+2025-06-30 23:44:00.17 spid48s      MSR-117
+MEMORYCLERK_SQLGENERAL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                8040 7.85 mb
+2025-06-30 23:44:00.17 Server      <frame id="12" address="0x808CEAB49" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xAB49" />
+2025-06-30 23:44:00.18 spid48s      MSR-117
+MEMORYCLERK_SQLBUFFERPOOL (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                   50180 49.00 mb
+VM Committed                                  13204 12.89 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 264 264.00 kb
+2025-06-30 23:44:00.18 Server      <frame id="13" address="0x808CEB11A" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xB11A" />
+2025-06-30 23:44:00.19 spid48s      MSR-117
+MEMORYCLERK_SQLQUERYPLAN (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                7936 7.75 mb
+2025-06-30 23:44:00.19 Server      <frame id="14" address="0x808CEB746" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xB746" />
+2025-06-30 23:44:00.19 spid48s      MSR-117
+MEMORYCLERK_SQLQUERYEXEC (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 672 672.00 kb
+2025-06-30 23:44:00.19 Server      <frame id="15" address="0x808CEB4A3" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0xB4A3" />
+2025-06-30 23:44:00.20 spid48s      MSR-117
+MEMORYCLERK_SQLOPTIMIZER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1024 1.00 mb
+2025-06-30 23:44:00.20 Server      <frame id="16" address="0x808CE78E6" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x78E6" />
+2025-06-30 23:44:00.20 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 184 184.00 kb
+2025-06-30 23:44:00.20 Server      <frame id="17" address="0x808CE7F3F" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x7F3F" />
+2025-06-30 23:44:00.21 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE_HASHMAP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 248 248.00 kb
+2025-06-30 23:44:00.21 Server      <frame id="18" address="0x808CE9C07" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x9C07" />
+2025-06-30 23:44:00.22 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE_STATS (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  88 88.00 kb
+2025-06-30 23:44:00.22 Server      <frame id="19" address="0x808D14405" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x34405" />
+2025-06-30 23:44:00.22 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE_FEEDBACK (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.22 Server      <frame id="20" address="0x808D14976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x34976" />
+2025-06-30 23:44:00.23 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE_MESSAGING (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.23 Server      <frame id="21" address="0x808D14312" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x34312" />
+2025-06-30 23:44:00.23 spid48s      MSR-117
+MEMORYCLERK_QUERYDISKSTORE_QUERYVARIANT_DISPATCHERLIST (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.23 Server      <frame id="22" address="0x808D1531E" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x3531E" />
+2025-06-30 23:44:00.24 spid48s      MSR-117
+MEMORYCLERK_SQLUTILITIES (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-06-30 23:44:00.24 Server      <frame id="23" address="0x808EBB07A" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x1DB07A" />
+2025-06-30 23:44:00.24 spid48s      MSR-117
+MEMORYCLERK_SQLSTORENG (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                   12800 12.50 mb
+VM Committed                                  12800 12.50 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                               11680 11.41 mb
+2025-06-30 23:44:00.24 Server      <frame id="24" address="0x8059B16F0" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x6016F0" />
+2025-06-30 23:44:00.25 spid48s      MSR-117
+MEMORYCLERK_SQLCONNECTIONPOOL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2432 2.38 mb
+2025-06-30 23:44:00.25 Server      <frame id="25" address="0x808EBAEC4" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x1DAEC4" />
+2025-06-30 23:44:00.25 spid48s      MSR-117
+MEMORYCLERK_SQLCLR (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                  397752 388.43 mb
+VM Committed                                   2268 2.21 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2480 2.42 mb
+2025-06-30 23:44:00.26 Server      <frame id="26" address="0x808EBE0CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x1DE0CC" />
+2025-06-30 23:44:00.26 spid48s      MSR-117
+MEMORYCLERK_SQLSERVICEBROKER (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 464 464.00 kb
+2025-06-30 23:44:00.26 Server      <frame id="27" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 23:44:00.26 spid48s      MSR-117
+MEMORYCLERK_SQLHTTP (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.27 Server      <frame id="28" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 23:44:00.27 spid48s      MSR-117
+MEMORYCLERK_SNI (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-30 23:44:00.27 Server      <frame id="29" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 23:44:00.27 spid48s      MSR-117
+MEMORYCLERK_SNI (node 64)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.28 Server      <frame id="30" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 23:44:00.28 spid48s      MSR-117
+MEMORYCLERK_SNI (Total)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-06-30 23:44:00.28 Server      <frame id="31" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 23:44:00.28 spid48s      MSR-117
+MEMORYCLERK_FULLTEXT (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 296 296.00 kb
+2025-06-30 23:44:00.29 Server      Dispatcher (0x368) from dispatcher pool 'XE Engine main dispatcher pool' Worker 0x0000000CAF2B6180 appears to be stuck on Node 0. Approx CPU Used: kernel 850 ms, user 2750 ms, Interval: 240149.
+2025-06-30 23:44:00.29 spid48s      MSR-117
+MEMORYCLERK_SQLXP (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.29 spid48s      MSR-117
+MEMORYCLERK_SQLTRACE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2256 2.20 mb
+2025-06-30 23:44:00.30 spid48s      MSR-117
+MEMORYCLERK_XTP (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                2744 2.68 mb
+2025-06-30 23:44:00.30 spid48s      MSR-117
+MEMORYCLERK_CSILOBCOMPRESSION (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-30 23:44:00.31 spid48s      MSR-117
+MEMORYCLERK_SQLSERVICEBROKERTRANSPORT (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 392 392.00 kb
+2025-06-30 23:44:00.31 spid48s      MSR-117
+MEMORYCLERK_FILETABLE (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.32 spid48s      MSR-117
+MEMORYCLERK_SPATIAL (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-30 23:44:00.32 spid48s      MSR-117
+MEMORYCLERK_HADR (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-06-30 23:44:00.33 spid48s      MSR-117
+MEMORYCLERK_SQLLOGPOOL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 688 688.00 kb
+2025-06-30 23:44:00.33 spid48s      MSR-117
+MEMORYCLERK_LWC (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-30 23:44:00.34 spid48s      MSR-117
+MEMORYCLERK_FSCHUNKER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-06-30 23:44:00.34 spid48s      MSR-117
+MEMORYCLERK_SQLEXTENSIBILITY (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-30 23:44:00.35 spid48s      MSR-117
+MEMORYCLERK_SVL (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.35 spid48s      MSR-117
+MEMORYCLERK_SLOG (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-30 23:44:00.36 spid48s      MSR-117
+MEMORYCLERK_XDB_PKG_LAUNCHER_MANAGER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.36 spid48s      MSR-117
+MEMORYCLERK_QUERYPROFILE (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-30 23:44:00.37 spid48s      MSR-117
+MEMORYCLERK_DEK (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.38 spid48s      MSR-117
+MEMORYCLERK_DBLEDGER (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.38 spid48s      MSR-117
+MEMORYCLERK_EXTERNAL_GOVERNANCE_AUTHORIZATION_ENGINE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.38 spid48s      MSR-117
+MEMORYCLERK_SECURITY (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.39 spid48s      MSR-117
+MEMORYCLERK_EXT_GOV_MGR (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.40 spid48s      MSR-117
+CACHESTORE_STACKFRAMES (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.40 spid48s      MSR-117
+CACHESTORE_STACKFRAMES (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.41 spid48s      MSR-117
+CACHESTORE_STACKFRAMES (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.42 spid48s      MSR-117
+CACHESTORE_OBJCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.43 spid48s      MSR-117
+CACHESTORE_SQLCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1712 1.67 mb
+2025-06-30 23:44:00.44 spid48s      MSR-117
+CACHESTORE_PHDR (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.45 spid48s      MSR-117
+CACHESTORE_XPROC (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.45 spid48s      MSR-117
+CACHESTORE_TEMPTABLES (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 104 104.00 kb
+2025-06-30 23:44:00.46 spid48s      MSR-117
+CACHESTORE_NOTIF (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.47 spid48s      MSR-117
+CACHESTORE_VIEWDEFINITIONS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.48 spid48s      MSR-117
+CACHESTORE_XMLDBTYPE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.48 spid48s      MSR-117
+CACHESTORE_XMLDBELEMENT (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.49 spid48s      MSR-117
+CACHESTORE_XMLDBATTRIBUTE (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.49 spid48s      MSR-117
+CACHESTORE_BROKERTBLACS (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  40 40.00 kb
+2025-06-30 23:44:00.50 spid48s      MSR-117
+CACHESTORE_BROKERKEK (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.51 spid48s      MSR-117
+CACHESTORE_BROKERDSH (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.52 spid48s      MSR-117
+CACHESTORE_BROKERUSERCERTLOOKUP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.52 spid48s      MSR-117
+CACHESTORE_BROKERRSB (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.53 spid48s      MSR-117
+CACHESTORE_BROKERREADONLY (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-30 23:44:00.54 spid48s      MSR-117
+CACHESTORE_BROKERTO (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.54 spid48s      MSR-117
+CACHESTORE_EVENTS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.55 spid48s      MSR-117
+CACHESTORE_SEHOBTCOLUMNATTRIBUTE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 160 160.00 kb
+2025-06-30 23:44:00.56 spid48s      MSR-117
+CACHESTORE_SYSTEMROWSET (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 768 768.00 kb
+2025-06-30 23:44:00.56 spid48s      MSR-117
+CACHESTORE_CONVPRI (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-30 23:44:00.57 spid48s      MSR-117
+CACHESTORE_FULLTEXTSTOPLIST (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  32 32.00 kb
+2025-06-30 23:44:00.58 spid48s      MSR-117
+CACHESTORE_SEARCHPROPERTYLIST (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.58 spid48s      MSR-117
+CACHESTORE_COLUMNSTOREOBJECTPOOL (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  96 96.00 kb
+2025-06-30 23:44:00.59 spid48s      MSR-117
+CACHESTORE_QDSCONTEXTSETTINGS (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.59 spid48s      MSR-117
+CACHESTORE_QDSRUNTIMESTATS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.60 spid48s      MSR-117
+CACHESTORE_XML_SELECTIVE_DG (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.60 spid48s      MSR-117
+CACHESTORE_XSTORE_AADTOKEN (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 544 544.00 kb
+2025-06-30 23:44:00.61 spid48s      MSR-117
+CACHESTORE_S3_TEMP_CREDENTIAL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-30 23:44:00.62 spid48s      MSR-117
+USERSTORE_SCHEMAMGR (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                3456 3.38 mb
+2025-06-30 23:44:00.62 spid48s      MSR-117
+USERSTORE_DBMETADATA (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-30 23:44:00.63 spid48s      MSR-117
+USERSTORE_TOKENPERM (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                1312 1.28 mb
+2025-06-30 23:44:00.63 spid48s      MSR-117
+USERSTORE_OBJPERM (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 904 904.00 kb
+2025-06-30 23:44:00.64 spid48s      MSR-117
+USERSTORE_SXC (node 0)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.65 spid48s      MSR-117
+USERSTORE_SXC (node 64)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                   8 8.00 kb
+2025-06-30 23:44:00.65 spid48s      MSR-117
+USERSTORE_SXC (Total)                            KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.66 spid48s      MSR-117
+USERSTORE_QDSSTMT (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  48 48.00 kb
+2025-06-30 23:44:00.66 spid48s      MSR-117
+OBJECTSTORE_SOSTASK (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 240 240.00 kb
+2025-06-30 23:44:00.67 spid48s      MSR-117
+OBJECTSTORE_LBSS (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 144 144.00 kb
+2025-06-30 23:44:00.67 spid48s      MSR-117
+OBJECTSTORE_SNI_PACKET (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-30 23:44:00.68 spid48s      MSR-117
+OBJECTSTORE_SNI_PACKET (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  64 64.00 kb
+2025-06-30 23:44:00.68 spid48s      MSR-117
+OBJECTSTORE_SNI_PACKET (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 128 128.00 kb
+2025-06-30 23:44:00.69 spid48s      MSR-117
+OBJECTSTORE_SERVICE_BROKER (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 656 656.00 kb
+2025-06-30 23:44:00.70 spid48s      MSR-117
+OBJECTSTORE_LOCK_MANAGER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                    2048 2.00 mb
+VM Committed                                   2048 2.00 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 872 872.00 kb
+2025-06-30 23:44:00.70 spid48s      MSR-117
+OBJECTSTORE_LOCK_MANAGER (node 64)               KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  24 24.00 kb
+2025-06-30 23:44:00.71 spid48s      MSR-117
+OBJECTSTORE_LOCK_MANAGER (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                    2048 2.00 mb
+VM Committed                                   2048 2.00 mb
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 896 896.00 kb
+2025-06-30 23:44:00.71 spid48s      MSR-117
+OBJECTSTORE_SECAUDIT_EVENT_BUFFER (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                  16 16.00 kb
+2025-06-30 23:44:00.72 spid48s      MSR-117
+OBJECTSTORE_XACT_CACHE (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0 0.00 bytes
+VM Committed                                      0 0.00 bytes
+Locked Pages Allocated                            0 0.00 bytes
+SM Reserved                                       0 0.00 bytes
+SM Committed                                      0 0.00 bytes
+Pages Allocated                                 192 192.00 kb
+2025-06-30 23:44:00.72 spid48s      MSR-117
+Buffer Pool                                   Pages
+---------------------------------------- ----------
+Database                                          5 40.00 kb
+Simulated                                         0 0.00 bytes
+Target                                       196608 1.50 gb
+Dirty                                             0 0.00 bytes
+In IO                                             0 0.00 bytes
+Latched                                           0 0.00 bytes
+IO error                                          0 0.00 bytes
+In Internal Pool                                  0 
+Page Life Expectancy                            465 
+2025-06-30 23:44:00.73 spid48s      MSR-117
+Buffer Pool Current Clock Stats               Count
+---------------------------------------- ----------
+Never Used                                     2549 19.91 mb
+Stolen or Free                                 5579 43.59 mb
+Above Cutoff (HOT)                                4 32.00 kb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         0 0.00 bytes
+Moved to L2                                       0 0.00 bytes
+Evicted                                          52 416.00 kb
+Evicted Mapped                                    0 0.00 bytes
+2025-06-30 23:44:00.74 spid48s      MSR-117
+Buffer Pool Previous Clock Stats              Count
+---------------------------------------- ----------
+Never Used                                     2797 21.85 mb
+Stolen or Free                                 5682 44.39 mb
+Above Cutoff (HOT)                               25 200.00 kb
+Not on LRU                                        0 0.00 bytes
+Single Use                                        0 0.00 bytes
+Long IO Queue                                     0 0.00 bytes
+In IO                                             0 0.00 bytes
+In Allocation                                     0 0.00 bytes
+Preemptive                                        0 0.00 bytes
+Skip Pool                                         0 0.00 bytes
+Moved to L2                                       0 0.00 bytes
+Evicted                                          21 168.00 kb
+Evicted Mapped                                    0 0.00 bytes
+2025-06-30 23:44:00.75 spid48s      MSR-117
+Procedure Cache                               Value
+---------------------------------------- ----------
+TotalProcs                                        0 
+TotalPages                                      218 1.70 mb
+InUsePages                                        0 0.00 bytes
+2025-06-30 23:44:00.75 spid48s      MSR-117
+Global Memory Objects                         Pages
+---------------------------------------- ----------
+Resource                                        585 4.57 mb
+Locks                                           112 896.00 kb
+XDES                                             49 392.00 kb
+DirtyPageTracking                                67 536.00 kb
+SETLS                                            12 96.00 kb
+SubpDesc Allocators                              12 96.00 kb
+SE SchemaManager                                166 1.30 mb
+SE Column Metadata Cache                        253 1.98 mb
+SE Column Metadata Cache Store                    1 8.00 kb
+SE Column Store Metadata Cache                   12 96.00 kb
+SQLCache                                        202 1.58 mb
+Replication                                       2 16.00 kb
+ServerGlobal                                    155 1.21 mb
+XP Global                                         2 16.00 kb
+SortTables                                        3 24.00 kb
+2025-06-30 23:44:00.76 spid48s      MSR-117
+Query Memory Objects (internal)               Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       495 3.87 kb
+Current Max                                     495 3.87 kb
+Future Max                                      495 3.87 kb
+Physical Max                                  16005 125.04 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-30 23:44:00.77 spid48s      MSR-117
+Small Query Memory Objects (internal)         Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-30 23:44:00.78 spid48s      MSR-117
+Query Memory Objects (default)                Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                       495 3.87 kb
+Current Max                                     495 3.87 kb
+Future Max                                      495 3.87 kb
+Physical Max                                  16005 125.04 kb
+Next Request                                      0 0.00 bytes
+Waiting For                                       0 0.00 bytes
+Cost                                              0 
+Timeout                                           0 0.00 secs
+Wait Time                                         0 0.00 secs
+2025-06-30 23:44:00.78 spid48s      MSR-117
+Small Query Memory Objects (default)          Value
+---------------------------------------- ----------
+Grants                                            0 
+Waiting                                           0 
+Available                                         0 0.00 bytes
+Current Max                                       0 0.00 bytes
+Future Max                                        0 0.00 bytes
+2025-06-30 23:44:00.79 spid48s      MSR-117
+Optimization Queue (internal)                 Value
+---------------------------------------- ----------
+Overall Memory                            139960320 133.48 mb
+Target Memory                              71245824 67.95 mb
+Last Notification                                 2 SHRINK
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-30 23:44:00.79 spid48s      MSR-117
+Small Gateway (internal)                      Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-30 23:44:00.79 spid48s      MSR-117
+Medium Gateway (internal)                     Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-30 23:44:00.80 spid48s      MSR-117
+Big Gateway (internal)                        Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 
+2025-06-30 23:44:00.80 spid48s      MSR-117
+Optimization Queue (default)                  Value
+---------------------------------------- ----------
+Overall Memory                            139960320 133.48 mb
+Target Memory                               4366336 4.16 mb
+Last Notification                                 0 STABLE
+Timeout                                           6 6.00 secs
+Early Termination Factor                          5 
+2025-06-30 23:44:00.81 spid48s      MSR-117
+Small Gateway (default)                       Value
+---------------------------------------- ----------
+Configured Units                                 48 
+Available Units                                  48 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                             380000 
+Threshold                                    380000 
+2025-06-30 23:44:00.81 spid48s      MSR-117
+Medium Gateway (default)                      Value
+---------------------------------------- ----------
+Configured Units                                 12 
+Available Units                                  12 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                 12 
+Threshold                                        -1 
+2025-06-30 23:44:00.82 spid48s      MSR-117
+Big Gateway (default)                         Value
+---------------------------------------- ----------
+Configured Units                                  1 
+Available Units                                   1 
+Acquires                                          0 
+Waiters                                           0 
+Threshold Factor                                  8 
+Threshold                                        -1 

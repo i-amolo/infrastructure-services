@@ -1,0 +1,421 @@
+                      2840
+MaxSizeClass                                   2840
+2025-06-30 20:34:28.67 spid49s     [INFO]  MSExtra-75
+XTP_MEMORY_CONSUMER (2, LOOKASIDE, Transaction read set)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   3096
+MaxSizeClass                                   3096
+2025-06-30 20:34:28.69 spid49s     [INFO]  MSExtra-75
+XTP_MEMORY_CONSUMER (1, LOOKASIDE, Transaction)
+---------------------------------------- ----------
+Allocated (KB)                                    0
+Used (KB)                                         0
+Allocation Count                                  0
+SizeClass Count                                   2
+MinSizeClass                                   1472
+MaxSizeClass                                   1472
+2025-06-30 20:35:46.18 Server      Long Sync IO: Scheduler 9 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:35:46.89 Server      Long Sync IO: Scheduler 11 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:38:12.56 Server      Long Sync IO: Scheduler 8 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:38:14.24 Server      Long Sync IO: Scheduler 10 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:38:21.43 Server      Long Sync IO: Scheduler 2 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:38:22.06 Server      Long Sync IO: Scheduler 8 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:44:27.74 Server      Long Sync IO: Scheduler 9 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:44:35.29 Server      Long Sync IO: Scheduler 8 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:51:55.88 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:51:56.14 Server      Long Sync IO: Scheduler 8 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:59:12.09 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:59:32.54 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:59:33.45 Server      Long Sync IO: Scheduler 11 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 20:59:38.57 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:10:25.45 Server      Long Sync IO: Scheduler 6 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:19:30.32 Server      Long Sync IO: Scheduler 10 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:20:39.43 spid2s      A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F422CA8 : 0, waittime 300 seconds, flags 0x1a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:20:39.43 spid42s     A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F43BC28 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:20:39.43 spid14s     A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F413C28 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:20:39.43 spid7s      A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F403468 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:20:55.41 spid20s     A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F44B848 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:22:15.63 spid4s      A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F42BC28 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:22:18.13 spid22s     A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F413088 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:24:55.02 spid43s     A time-out occurred while waiting for buffer latch -- type 2, bp 00000008745B1800, page 1:362, stat 0x40d, database id: 1, allocation unit Id: 536870912/281475513581568, task 0x000000084F433C28 : 0, waittime 300 seconds, flags 0x3a, owning task 0x000000084F453468. Not continuing to wait.
+2025-06-30 21:50:04.17 spid78s     sp_server_diangostics encountered a long delay that was 2.5 times more than the repeat interval between two consecutive diagnostics result generations. The repeat interval: 300000000, the elapsed time of this diagnostics result generation: 1100829829, the elapsed time between the latest two diagnostics result generations: 1107072742.
+2025-06-30 21:50:08.22 Server      Long Sync IO: Scheduler 11 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:09.82 spid2s      Latch Waiter
+2025-06-30 21:50:09.82 spid42s     Latch Waiter
+2025-06-30 21:50:10.14 spid14s     Latch Waiter
+2025-06-30 21:50:10.56 spid7s      Latch Waiter
+2025-06-30 21:50:10.60 spid20s     Latch Waiter
+2025-06-30 21:50:11.03 spid4s      Latch Waiter
+2025-06-30 21:50:11.81 spid22s     Latch Waiter
+2025-06-30 21:50:13.03 spid43s     Latch Waiter
+2025-06-30 21:50:23.99 spid2s      <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:24.51 Server      Long Sync IO: Scheduler 0 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:25.32 spid42s     <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:26.29 spid14s     <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:27.61 spid7s      <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:28.76 spid20s     <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:29.50 spid4s      <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:30.58 spid22s     <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:30.81 spid43s     <frame id="00" address="0x8036637A5" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E37A5" />
+2025-06-30 21:50:30.89 spid2s      <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.05 Server      Long Sync IO: Scheduler 1 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.14 spid14s     <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.14 spid7s      <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.14 spid4s      <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.14 spid20s     <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.13 spid42s     <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.14 spid22s     <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.15 spid43s     <frame id="01" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:50:31.15 spid2s      <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.15 Server      Long Sync IO: Scheduler 2 had 5 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.19 spid14s     <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid7s      <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid4s      <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid20s     <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid42s     <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid22s     <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid43s     <frame id="02" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:50:31.19 spid2s      <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.21 spid43s     <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.20 spid14s     <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.20 spid7s      <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.20 spid4s      <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.20 spid20s     <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.21 spid42s     <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.21 spid22s     <frame id="03" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:50:31.19 Server      Long Sync IO: Scheduler 3 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.21 spid2s      <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.21 spid43s     <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.22 spid14s     <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.22 spid7s      <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.24 spid14s     <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.24 spid7s      <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.23 spid42s     <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.23 spid22s     <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.23 Server      Long Sync IO: Scheduler 4 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.23 spid2s      <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.24 spid43s     <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.25 spid2s      <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.22 spid20s     <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.24 spid14s     <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.24 spid7s      <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.25 spid42s     <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.25 spid22s     <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.25 Server      Long Sync IO: Scheduler 5 had 5 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.22 spid4s      <frame id="04" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:50:31.26 spid43s     <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.26 spid2s      <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.26 spid20s     <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.26 spid14s     <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.26 spid7s      <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.27 spid42s     <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.27 spid22s     <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.27 Server      Long Sync IO: Scheduler 6 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.27 spid4s      <frame id="05" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:50:31.28 spid43s     <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.28 spid2s      <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.28 spid20s     <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.29 spid14s     <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.29 spid7s      <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.29 spid42s     <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.30 spid22s     <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.30 Server      Long Sync IO: Scheduler 7 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.30 spid4s      <frame id="06" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:50:31.30 spid43s     <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.31 spid2s      <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.31 spid20s     <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.31 spid14s     <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.31 spid7s      <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.32 spid42s     <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.32 spid22s     <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.32 Server      Long Sync IO: Scheduler 8 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.32 spid4s      <frame id="07" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:50:31.32 spid43s     <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.33 spid2s      <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.33 spid20s     <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.33 spid14s     <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.35 spid7s      <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.35 spid42s     <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.35 spid22s     <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.35 Server      Long Sync IO: Scheduler 9 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.35 spid4s      <frame id="08" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:50:31.35 spid43s     <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.35 spid2s      <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.36 spid20s     <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.38 spid14s     <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.38 spid7s      <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.39 spid42s     <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.39 spid22s     <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.39 spid4s      <frame id="09" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:50:31.39 spid43s     <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.39 spid2s      <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.40 spid20s     <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.40 spid14s     <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.40 Server      Long Sync IO: Scheduler 10 had 3 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:31.40 spid7s      <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.40 spid42s     <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.40 spid22s     <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.40 spid4s      <frame id="10" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:50:31.40 spid43s     <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.41 spid2s      <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.41 spid20s     <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.41 spid14s     <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.41 spid7s      <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.42 spid42s     <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.42 spid22s     <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.43 spid4s      <frame id="11" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:50:31.43 spid43s     <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.43 spid2s      <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.43 spid20s     <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.43 spid14s     <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.44 spid7s      <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.44 spid42s     <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.44 spid22s     <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.44 spid4s      <frame id="12" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:50:31.45 spid43s     <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.45 spid2s      <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.45 spid20s     <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.45 spid14s     <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.45 spid7s      <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.46 spid42s     <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.46 spid22s     <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.46 spid4s      <frame id="13" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:50:31.47 spid43s     <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.47 spid2s      <frame id="16" address="0x8023561D2" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D61D2" />
+2025-06-30 21:50:31.47 spid20s     <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.48 spid14s     <frame id="16" address="0x8021A6E16" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x26E16" />
+2025-06-30 21:50:31.48 spid7s      <frame id="16" address="0x802356812" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D6812" />
+2025-06-30 21:50:31.48 spid42s     <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.48 spid22s     <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.48 spid4s      <frame id="14" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:50:31.48 spid2s      <frame id="17" address="0x802356098" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D6098" />
+2025-06-30 21:50:31.48 spid20s     <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.48 spid14s     <frame id="17" address="0x8021A492A" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2492A" />
+2025-06-30 21:50:31.49 spid7s      <frame id="17" address="0x802356695" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D6695" />
+2025-06-30 21:50:31.49 spid43s     <frame id="16" address="0x80574A7D8" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x39A7D8" />
+2025-06-30 21:50:31.49 spid42s     <frame id="16" address="0x8021A7B56" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x27B56" />
+2025-06-30 21:50:31.49 spid22s     <frame id="16" address="0x802389D70" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x209D70" />
+2025-06-30 21:50:31.49 spid4s      <frame id="15" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:50:31.49 spid2s      <frame id="18" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.49 spid20s     <frame id="16" address="0x8023586E2" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D86E2" />
+2025-06-30 21:50:31.50 spid14s     <frame id="18" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.50 spid7s      <frame id="18" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.50 spid43s     <frame id="17" address="0x80574A6A0" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x39A6A0" />
+2025-06-30 21:50:31.51 spid42s     <frame id="17" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.51 spid22s     <frame id="17" address="0x802389C3F" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x209C3F" />
+2025-06-30 21:50:31.52 spid4s      <frame id="16" address="0x80238D940" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x20D940" />
+2025-06-30 21:50:31.52 spid2s      <frame id="19" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.52 spid20s     <frame id="17" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.52 spid14s     <frame id="19" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.53 spid7s      <frame id="19" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.53 spid43s     <frame id="18" address="0x80574B271" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x39B271" />
+2025-06-30 21:50:31.53 spid42s     <frame id="18" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.54 spid22s     <frame id="18" address="0x802389649" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x209649" />
+2025-06-30 21:50:31.54 spid4s      <frame id="17" address="0x80238D57B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x20D57B" />
+2025-06-30 21:50:31.54 spid2s      <frame id="20" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.55 spid20s     <frame id="18" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.55 spid14s     <frame id="20" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.55 spid7s      <frame id="20" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.56 spid43s     <frame id="19" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.56 spid42s     <frame id="19" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.56 spid22s     <frame id="19" address="0x80238949D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x20949D" />
+2025-06-30 21:50:31.57 spid4s      <frame id="18" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.57 spid2s      <frame id="21" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.57 spid20s     <frame id="19" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.58 spid14s     <frame id="21" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.58 spid7s      <frame id="21" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.58 spid43s     <frame id="20" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.59 spid42s     <frame id="20" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.59 spid22s     <frame id="20" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:50:31.60 spid4s      <frame id="19" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.60 spid2s      <frame id="22" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.60 spid20s     <frame id="20" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.61 spid14s     <frame id="22" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.61 spid7s      <frame id="22" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.61 spid43s     <frame id="21" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.63 spid42s     <frame id="21" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.64 spid22s     <frame id="21" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:50:31.65 spid42s     <frame id="22" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.64 spid2s      <frame id="23" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.64 spid20s     <frame id="21" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.66 spid2s      <frame id="24" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.65 spid7s      <frame id="23" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.65 spid43s     <frame id="22" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.64 spid4s      <frame id="20" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.65 spid22s     <frame id="22" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:50:31.66 spid42s     <frame id="23" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.64 spid14s     <frame id="23" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.66 spid20s     <frame id="22" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.66 spid2s      <frame id="25" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.66 spid7s      <frame id="24" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.67 spid43s     <frame id="23" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.67 spid4s      <frame id="21" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.67 spid22s     <frame id="23" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:50:31.68 spid42s     <frame id="24" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.68 spid14s     <frame id="24" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.70 spid20s     <frame id="23" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.70 spid2s      <frame id="26" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.70 spid7s      <frame id="25" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.71 spid43s     <frame id="24" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.71 spid4s      <frame id="22" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.71 spid22s     <frame id="24" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:50:31.71 spid42s     <frame id="25" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.72 spid14s     <frame id="25" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.72 spid20s     <frame id="24" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.72 spid2s      <frame id="27" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.72 spid7s      <frame id="26" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.73 spid43s     <frame id="25" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.73 spid4s      <frame id="23" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.73 spid22s     <frame id="25" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:50:31.73 spid42s     <frame id="26" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.75 spid4s      <frame id="24" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.75 spid43s     <frame id="26" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.74 spid7s      <frame id="27" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.74 spid2s      <frame id="28" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.74 spid14s     <frame id="26" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.74 spid20s     <frame id="25" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.75 spid22s     <frame id="26" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:50:31.75 spid42s     <frame id="27" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.77 spid4s      <frame id="25" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.77 spid43s     <frame id="27" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.77 spid7s      <frame id="28" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.77 spid2s      <frame id="29" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.78 spid14s     <frame id="27" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.78 spid20s     <frame id="26" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.78 spid22s     <frame id="27" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:50:31.78 spid42s     <frame id="28" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.78 spid4s      <frame id="26" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.79 spid43s     <frame id="28" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.79 spid7s      <frame id="29" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.79 spid2s      <frame id="30" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.79 spid14s     <frame id="28" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.80 spid20s     <frame id="27" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.80 spid22s     <frame id="28" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:50:31.80 spid42s     <frame id="29" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.81 spid4s      <frame id="27" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.81 spid43s     <frame id="29" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.84 spid7s      <frame id="30" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.84 spid14s     <frame id="29" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.85 spid20s     <frame id="28" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.85 spid22s     <frame id="29" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:50:31.85 spid4s      <frame id="28" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.85 spid42s     Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.85 spid2s      Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.85 spid43s     <frame id="30" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.85 spid7s      Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.86 spid14s     <frame id="30" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.86 spid20s     <frame id="29" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.86 spid22s     <frame id="30" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:50:31.86 spid4s      <frame id="29" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.87 spid43s     <frame id="31" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.87 spid14s     Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.87 spid20s     Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.88 spid43s     Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.87 spid4s      <frame id="30" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.87 spid22s     <frame id="31" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:50:31.88 spid4s      Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.88 spid22s     <frame id="32" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:50:31.89 spid22s     Latch Owner (No frames may indicate task has exited.)
+2025-06-30 21:50:31.94 spid2s      Error: 845, Severity: 17, State: 1.
+2025-06-30 21:50:31.94 spid2s      Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:31.95 spid14s     Error: 845, Severity: 17, State: 1.
+2025-06-30 21:50:31.95 spid14s     Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:31.94 spid43s     Error: 845, Severity: 17, State: 1.
+2025-06-30 21:50:31.94 spid43s     Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:31.94 spid22s     Error: 845, Severity: 17, State: 2.
+2025-06-30 21:50:31.94 spid22s     Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:31.94 spid20s     Error: 845, Severity: 17, State: 1.
+2025-06-30 21:50:31.94 spid20s     Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:32.03 spid4s      HkCsTimerTask::TimerFunction:13948: DbId 0, Msg 845, Level 17, State 1, Time-out occurred while waiting for buffer latch type 2 for page (1:362), database ID 1. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 2 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:50:32.03 spid20s     SQL Ledger: Block generation or digest upload failed for this server due to error 845 and state 1.
+2025-06-30 21:50:32.04 spid22s     [VersionCleaner][DbId:0][CleanupVersionsFromDbTask] Multithreaded VersionCleanup cannot be done due to an exception 845. This is not fatal. Cleanup will happen in the next cycle.
+2025-06-30 21:50:39.67 spid7s      **Dump thread - spid = 0, EC = 0x0000000CBE5E3D50 Connection = 0x0000000CBE5E3CE0
+2025-06-30 21:50:46.49 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:50:46.55 spid7s      ***Stack Dump being sent to /var/opt/mssql/log/SQLDump0008.txt
+2025-06-30 21:51:21.73 Server      Long Sync IO: Scheduler 7 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:51:37.09 Server      Long Sync IO: Scheduler 9 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:07.27 Server      Long Sync IO: Scheduler 11 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:20.18 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:19.90 spid7s      * *******************************************************************************
+2025-06-30 21:52:26.07 Server      Long Sync IO: Scheduler 7 had 7 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:39.71 spid7s      *
+2025-06-30 21:52:42.69 Server      Long Sync IO: Scheduler 1 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:42.73 spid7s      * BEGIN STACK DUMP:
+2025-06-30 21:52:42.98 spid7s      *   06/30/25 21:51:27 spid 7
+2025-06-30 21:52:43.12 spid7s      *
+2025-06-30 21:52:43.26 spid7s      * Latch timeout
+2025-06-30 21:52:43.61 spid7s      *
+2025-06-30 21:52:43.84 spid7s      *  
+2025-06-30 21:52:44.03 spid7s      * *******************************************************************************
+2025-06-30 21:52:44.12 spid7s      * -------------------------------------------------------------------------------
+2025-06-30 21:52:44.17 spid7s      * Short Stack Dump
+2025-06-30 21:52:44.28 spid7s      <frame id="00" address="0x801A9E3F9" pdb="kernelbase.pdb" age="1" guid="5CD0BCC4-1628-5E40-3EB5-4DFE56CBF899" module="kernelbase" rva="0x3E3F9" />
+2025-06-30 21:52:44.38 spid7s      <frame id="00" address="0x8066FE82E" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x134E82E" />
+2025-06-30 21:52:44.44 spid7s      <frame id="00" address="0x806702855" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x1352855" />
+2025-06-30 21:52:44.48 spid7s      <frame id="00" address="0x803664C17" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E4C17" />
+2025-06-30 21:52:44.62 spid7s      <frame id="00" address="0x8036638DF" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E38DF" />
+2025-06-30 21:52:44.91 spid7s      <frame id="00" address="0x803662C9D" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14E2C9D" />
+2025-06-30 21:52:45.20 spid7s      <frame id="00" address="0x8021F9084" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x79084" />
+2025-06-30 21:52:45.56 spid7s      <frame id="00" address="0x80218EF57" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xEF57" />
+2025-06-30 21:52:45.64 spid7s      <frame id="00" address="0x80218F115" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0xF115" />
+2025-06-30 21:52:45.68 spid7s      <frame id="00" address="0x8021942F0" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x142F0" />
+2025-06-30 21:52:45.74 spid7s      <frame id="00" address="0x802193CBA" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x13CBA" />
+2025-06-30 21:52:45.79 spid7s      <frame id="00" address="0x8021936C4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x136C4" />
+2025-06-30 21:52:45.83 spid7s      <frame id="00" address="0x802192DA4" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x12DA4" />
+2025-06-30 21:52:45.89 spid7s      <frame id="00" address="0x8021938E8" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x138E8" />
+2025-06-30 21:52:45.92 spid7s      <frame id="00" address="0x802194A30" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x14A30" />
+2025-06-30 21:52:45.98 spid7s      <frame id="00" address="0x8021910CD" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x110CD" />
+2025-06-30 21:52:46.02 spid7s      <frame id="00" address="0x802190260" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x10260" />
+2025-06-30 21:52:46.06 spid7s      <frame id="00" address="0x8021A10D1" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x210D1" />
+2025-06-30 21:52:46.12 spid7s      <frame id="00" address="0x8021A5A0E" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25A0E" />
+2025-06-30 21:52:46.15 spid7s      <frame id="00" address="0x8021A5F72" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x25F72" />
+2025-06-30 21:52:46.20 spid7s      <frame id="00" address="0x802356812" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D6812" />
+2025-06-30 21:52:46.23 spid7s      <frame id="00" address="0x802356695" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x1D6695" />
+2025-06-30 21:52:46.27 spid7s      <frame id="00" address="0x8021A475B" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x2475B" />
+2025-06-30 21:52:46.32 spid7s      <frame id="00" address="0x8021A4446" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24446" />
+2025-06-30 21:52:46.36 spid7s      <frame id="00" address="0x8053B53E4" pdb="sqllang.pdb" age="2" guid="77A4EE9E-51E3-4460-88B9-36B93670AB76" module="sqllang" rva="0x53E4" />
+2025-06-30 21:52:46.39 spid7s      <frame id="00" address="0x8021A4145" pdb="sqlmin.pdb" age="2" guid="BC8C7A86-66E1-451B-85B5-1AA1AF97324C" module="sqlmin" rva="0x24145" />
+2025-06-30 21:52:46.43 spid7s      <frame id="00" address="0x808CE87AB" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x87AB" />
+2025-06-30 21:52:46.47 spid7s      <frame id="00" address="0x808CE8DB5" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8DB5" />
+2025-06-30 21:52:46.51 spid7s      <frame id="00" address="0x808CE8914" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x8914" />
+2025-06-30 21:52:46.55 spid7s      <frame id="00" address="0x808D08353" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28353" />
+2025-06-30 21:52:46.59 spid7s      <frame id="00" address="0x808D086CC" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x286CC" />
+2025-06-30 21:52:46.62 spid7s      <frame id="00" address="0x808D08BC2" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28BC2" />
+2025-06-30 21:52:46.66 spid7s      <frame id="00" address="0x808D08976" pdb="SqlDK.pdb" age="2" guid="F350BA8B-6AE6-4460-83D9-76CE8B12EC27" module="SqlDK" rva="0x28976" />
+2025-06-30 21:52:46.69 spid7s      <frame id="00" address="0x8015E7AF4" pdb="kernel32.pdb" age="1" guid="E4CC0E21-BDDF-68A6-8D56-D644BB74B131" module="kernel32" rva="0x17AF4" />
+2025-06-30 21:52:46.73 spid7s      <frame id="00" address="0x8000644A1" pdb="ntdll.pdb" age="1" guid="7CF052A3-2E1E-8ED4-0593-CC2297317058" module="ntdll" rva="0x244A1" />
+2025-06-30 21:52:46.79 spid7s      Stack Signature for the dump is 0x0000000026B00248
+2025-06-30 21:52:46.80 spid7s      SaveNumaNodeRelationShip : 0 of 1 numa nodes info saved to pDump.
+2025-06-30 21:52:46.80 spid7s      CDmpClient::ExecuteAllCallbacks started.
+2025-06-30 21:52:46.81 spid7s      XE_DumpCallbacks is executing...
+2025-06-30 21:52:46.84 spid7s      DumpCallbackSOS is executing...
+2025-06-30 21:52:46.84 spid7s      DumpCallbackEE is executing...
+2025-06-30 21:52:46.85 spid7s      DumpCallbackSE is executing...
+2025-06-30 21:52:46.89 spid7s      DumpCallbackSEAM is executing...
+2025-06-30 21:52:46.89 spid7s      DumpCallbackSSB is executing...
+2025-06-30 21:52:46.91 spid7s      DumpCallbackQE is executing...
+2025-06-30 21:52:46.91 spid7s      DumpCallbackFullText is executing...
+2025-06-30 21:52:46.92 spid7s      DumpCallbackSQLCLR is executing...
+2025-06-30 21:52:46.92 spid7s      DumpCallbackHk is executing...
+2025-06-30 21:52:46.94 spid7s      DumpCallbackRepl is executing...
+2025-06-30 21:52:46.94 spid7s      DumpCallbackPolyBase is executing...
+2025-06-30 21:52:46.95 spid7s      CDmpClient::ExecuteAllCallbacks completed. Time elapsed: 0 seconds.
+2025-06-30 21:52:57.79 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:52:59.19 Server      Long Sync IO: Scheduler 2 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:02.46 Server      Long Sync IO: Scheduler 6 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:04.86 Server      Long Sync IO: Scheduler 8 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:07.03 spid7s      Timeout waiting for external dump process 1168.
+2025-06-30 21:53:09.56 Server      Long Sync IO: Scheduler 9 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:14.91 spid7s      Error: 845, Severity: 17, State: 1.
+2025-06-30 21:53:14.91 spid7s      Time-out occurred while waiting for buffer latch type 2 for page (1:321), database ID 0. (LATCH 0x00000008745B1898: Class: BUFFER KP: 0 SH: 0 UP: 0 EX: 0 DT: 0 Sublatch: 0 HasWaiters: 0 Task: 0x0000000000000000 AnyReleasor: 0)
+2025-06-30 21:53:19.60 Server      Long Sync IO: Scheduler 10 had 4 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:33.79 Server      Long Sync IO: Scheduler 1 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:53:40.33 Server      Long Sync IO: Scheduler 8 had 6 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:54:43.16 Server      Long Sync IO: Scheduler 0 had 1 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:54:51.96 Server      Long Sync IO: Scheduler 0 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 21:55:00.96 Server      Long Sync IO: Scheduler 0 had 2 Sync IOs in nonpreemptive mode longer than 1000 ms
+2025-06-30 22:20:31.33 spid78s     sp_server_diangostics encountered a long delay that was 2.5 times more than the repeat interval between two consecutive diagnostics result generations. The repeat interval: 300000000, the elapsed time of this diagnostics result generation: 25423, the elapsed time between the latest two diagnostics result generations: 1813241217.

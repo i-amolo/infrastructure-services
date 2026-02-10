@@ -1,0 +1,2 @@
+/var/opt/mssql/log/core.sqlservr.16.temp/gdbcommands:4: Error in sourced command file:
+ptrace: No such process.

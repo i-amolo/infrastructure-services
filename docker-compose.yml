@@ -45,18 +45,18 @@ services:
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
       
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2019-latest
-    user: mssql
-    container_name: sqlserver
-    restart: always
-    environment:
-      ACCEPT_EULA: "Y"
-      MSSQL_SA_PASSWORD: "!Pa55w0rd"
-    ports:
-      - "1433:1433"
-    volumes:
-      - sqlserver_data:/var/opt/mssql
+#  sqlserver:
+#    image: mcr.microsoft.com/mssql/server:2019-latest
+#    user: mssql
+#    container_name: sqlserver
+#    restart: always
+#    environment:
+#      ACCEPT_EULA: "Y"
+#      MSSQL_SA_PASSWORD: "!Pa55w0rd"
+#    ports:
+#      - "1433:1433"
+#    volumes:
+#      - sqlserver_data:/var/opt/mssql
 #      - sqlserver_log:/var/opt/mssql/log
       
 volumes:
@@ -64,5 +64,5 @@ volumes:
   pgadmin_data:
   mysql_data:
   rabbitmq_data:
-  sqlserver_data:
-  sqlserver_log:
+#  sqlserver_data:
+#  sqlserver_log:
